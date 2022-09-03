@@ -22,7 +22,7 @@ url: "https://anchal-physics.github.io" # the base hostname & protocol for your 
 github_username:  anchal-physics
 
 # Build settings
-include: ['_pages', '_figures']
+include: ['_pages']
 markdown: kramdown
 theme: minima
 plugins:
