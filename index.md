@@ -5,9 +5,12 @@
 layout: default
 ---
 
-<center>
-  <img src="DisplayPicture.jpg" height="500">
-</center>
-<center>
-  Welcome to my webpage
-</center>
+<img src="DisplayPicture.jpg" height="500">
+
+Welcome to my webpage
+
+I am a graduate student of physics at California Institute of Technology. I
+am an experimental physicist and have been working with developing future
+gravitational wave detectors during my graduate school. My primary interests
+are precision measurements and control systems and feedback in optical,
+mechanical, and electronic systems.

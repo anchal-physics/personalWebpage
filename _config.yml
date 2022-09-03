@@ -16,11 +16,6 @@
 title: Anchal Gupta
 email: anchal@caltech.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a graduate student of physics at California Institute of Technology. I
-  am an experimental physicist and have been working with developing future
-  gravitational wave detectors during my graduate school. My primary interests
-  are precision measurements and control systems and feedback in optical,
-  mechanical, and electronic systems.
 baseurl: "/personalWebpage" # the subpath of your site, e.g. /blog
 url: "https://anchal-physics.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
