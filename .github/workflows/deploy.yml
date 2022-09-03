@@ -1,14 +1,23 @@
-name: Deploy Webpage
+name: Build webpage and deploy
 on:
   push:
     branches:
       - main
 jobs:
-  Deploy:
+  BuildAndDeploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Deploy
+      - name: Install ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - name: Install bundler
+        run: gem install bundler
+      - name: Build webpage
+        run: bundle install
+        run: bundle exec jekyll build
+      - name: Deploy webpage
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
