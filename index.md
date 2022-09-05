@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<img src="DisplayPicture.jpg" height="500">
+<img src="{{site.baseurl}}/data/figures/DisplayPicture.jpg" height="500">
 
 Welcome to my webpage
 
