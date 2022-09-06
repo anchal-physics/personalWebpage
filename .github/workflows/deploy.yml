@@ -22,5 +22,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          enable_jekyll: true
-          publish_dir: ./_site/
+          enable_jekyll: twitter_username
+          publish_dir: ./
