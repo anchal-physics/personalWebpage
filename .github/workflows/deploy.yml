@@ -4,23 +4,21 @@ on:
     branches:
       - main
 jobs:
-  BuildAndDeploy:
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      # - name: Install ruby
-      #   uses: actions/setup-ruby@v1
-      #   with:
-      #     ruby-version: '2.6'
-      # - name: Install bundler
-      #   run: gem install bundler
-      # - name: Install jekyll
-      #   run: bundle install
-      # - name: Build webpage
-      #   run: bundle exec jekyll build
-      - name: Deploy webpage
-        uses: peaceiris/actions-gh-pages@v3
+      - name: GitHub Checkout
+        uses: actions/checkout@v1
+      - name: Bundler Cache
+        uses: actions/cache@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          enable_jekyll: true
-          publish_dir: ./
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Build & Deploy to GitHub Pages
+        uses: joshlarsen/jekyll4-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
