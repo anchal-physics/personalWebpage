@@ -24,7 +24,7 @@ All ingredients are for 2 cups of uncooked rice.
 ### Recommended
 
 * 3 Tbsp Cumin seeds
-* 2 Curry leaves
+* 2 Bay leaves
 * 4 Black cardamom
 * 2 Green cardamom whole
 * 2 green cardamoms (seeds only)
