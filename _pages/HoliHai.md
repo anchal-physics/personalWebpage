@@ -39,3 +39,13 @@ There are no rules except
 * Feel free to bring a change of clothes which you can wear out later. Changing rooms will be available.
 * Have a light breakfast for some energy before coming. But remember, lunch will be provided.
 * Please avoid driving to the event. Parking would be a problem and I do not want designated drivers not enjoying it fully. Try using public transport.
+
+## Some past Holi photos
+
+<img src="{{site.baseurl}}/data/figures/HoliPhotos/Holi2019.jpg" height="500">
+
+<img src="{{site.baseurl}}/data/figures/HoliPhotos/Holi2022a.jpg" height="500">
+
+<img src="{{site.baseurl}}/data/figures/HoliPhotos/Holi2022b.jpg" height="500">
+
+<img src="{{site.baseurl}}/data/figures/HoliPhotos/Holi2022c.jpg" height="500">
