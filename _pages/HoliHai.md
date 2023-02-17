@@ -48,4 +48,4 @@ There are no rules except
 
 <img src="{{site.baseurl}}/data/figures/HoliPhotos/Holi2022b.jpg" height="500">
 
-<img src="{{site.baseurl}}/data/figures/HoliPhotos/Holi2022c.jpg" height="500">
+<img src="{{site.baseurl}}/data/figures/HoliPhotos/Holi2022c.JPG" height="500">
