@@ -25,6 +25,7 @@ Please pay using any of the below options and mark coming to this event.
 ## Rules
 
 There are no rules except
+* Footwear is required.
 * Inside the house, please walk only on the black plastic-covered floor only. Other areas will be out of bounds.
 * If you are entering the backyard where people are playing, expect to get wet and/or stained without being asked for your consent explicitly. If you really do not want that, I think it is better to not come.
 * Having said that, of course when you are playing, play with some responsibility so that people do not feel uncomfortable and everyone can enjoy. Take care about stuff getting inside the eyes, nose, and mouth. The colors would be non-toxic and edible but you won't like the taste.
@@ -36,9 +37,14 @@ There are no rules except
 
 * Come in old white or light-colored clothes. Remember though, you might get wet.
 * Wear comfortable washable or waterproof footwear. I recommend crocs, jute sandals, or rubber sleepers.
-* Feel free to bring a change of clothes which you can wear out later. Changing rooms will be available.
-* Have a light breakfast for some energy before coming. But remember, lunch will be provided.
-* Please avoid driving to the event. Parking would be a problem and I do not want designated drivers not enjoying it fully. Try using public transport.
+* Feel free to bring a change of clothes which you can wear out later. Plenty of changing rooms will be available.
+* Have a light breakfast for some energy before coming. But remember, lunch will be provided. There will be some really tasty snacks too.
+* Please avoid driving to the event. Parking would be a problem and I do not want designated drivers not enjoying it fully. Try using public transport or metro micro ($1 rides within Pasadena).
+* People who want to uber can bring an extra sheet or towel to cover car seats for being courteous to the drivers.
+
+## Playlist of 2023!
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3R9FQUST4r34s2iJYafj0f?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 ## Some past Holi photos
 
