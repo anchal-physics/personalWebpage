@@ -18,9 +18,9 @@ in optical, mechanical, and electronic systems.
 My PhD defense talk is scheduled for May 15, 2023 at Noon at Room 107 in [Downs-Lauritsen Laboratory of Physics, Caltech](https://goo.gl/maps/gYSoq8x31P8L33hd7).
 
 In-person:
-<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NjBtcm1rM2Nmc2ltN2NtdWs1ODMyZTVzZ3UgYW5jaGFsLnBoeXNpY3NAbQ&amp;tmsrc=anchal.physics%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MTFpc2ExdjVyNXIydGlxcmRtOHV1NGE1M2EgMDI2Njk2NjdhNGNmZjRiMmZmNmEyYWEwYThlZTRjYTk5OWQzMGQwN2FlZjJiMjBjMDQ1NjI0NTliOGE3NGI4MEBn&amp;tmsrc=02669667a4cff4b2ff6a2aa0a8ee4ca999d30d07aef2b20c04562459b8a74b80%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 Zoom:
-<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MGU5czVmaG9rNXZtZW84M2o5cWgycDgyZjQgYW5jaGFsLnBoeXNpY3NAbQ&amp;tmsrc=anchal.physics%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NXJhZWpwY2d1cWZ1cHBmc2J0Y29zcTgxYXAgMDI2Njk2NjdhNGNmZjRiMmZmNmEyYWEwYThlZTRjYTk5OWQzMGQwN2FlZjJiMjBjMDQ1NjI0NTliOGE3NGI4MEBn&amp;tmsrc=02669667a4cff4b2ff6a2aa0a8ee4ca999d30d07aef2b20c04562459b8a74b80%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 You can find my [thesis draft here](https://git.ligo.org/anchal.gupta/writing-presenting/-/jobs/artifacts/master/file/thesis/thesis.pdf?job=thesis).
