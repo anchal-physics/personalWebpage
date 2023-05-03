@@ -21,6 +21,6 @@ In-person:
 <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXQ1dnJlbzJmYWxnYmxoYWdpa2MxbjMyN2cgYW5jaGFsLnBoeXNpY3NAbQ&amp;tmsrc=anchal.physics%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 Zoom:
-<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=b2pubm5ibGhyMXFuMDE1NG9tOHJhcDBmZDQgYW5jaGFsLnBoeXNpY3NAbQ&amp;tmsrc=anchal.physics%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MGU5czVmaG9rNXZtZW84M2o5cWgycDgyZjQgYW5jaGFsLnBoeXNpY3NAbQ&amp;tmsrc=anchal.physics%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 
 You can find my [thesis draft here](https://git.ligo.org/anchal.gupta/writing-presenting/-/jobs/artifacts/master/file/thesis/thesis.pdf?job=thesis).
