@@ -15,7 +15,7 @@ methods for future gravitational wave detection during my graduate school. My
 primary interests are precision measurements and control systems and feedback
 in optical, mechanical, and electronic systems.
 
-I successfully defended my thesis on May 15, 2023. You can find my [thesis draft here](https://git.ligo.org/anchal.gupta/writing-presenting/-/jobs/artifacts/master/file/thesis/thesis.pdf?job=thesis).
+I successfully defended my thesis on May 15, 2023. You can find my [thesis here](https://resolver.caltech.edu/CaltechTHESIS:06012023-001004673).
 
 I have accepted a position at the General Atomics Research Participation
 Program, DIII-D National Fusion Facility, San Diego. I'll be shifting gears and
