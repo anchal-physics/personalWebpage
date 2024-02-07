@@ -9,8 +9,8 @@ permalink: /education/
 </script>
 
 ## Graduate
-<div style="text-align: right"> 2016-present</div>
-Pursuing PhD in Physics
+<div style="text-align: right"> 2016-2023</div>
+PhD in Physics
 Advisor: Prof Rana Adhikari \\
 California Institute of Technology, Pasadena, CA
 

@@ -8,6 +8,9 @@ permalink: /research/
   type="text/javascript">
 </script>
 
+## Heatflux power exhaust control in Tokamak Nuclear Fusion Experimental Reactors
+I have been working for the past few months on the problem of effectively managing and controlling the heatflux exhaust that comes out of plasma in a Tokamak device. In future Fusion Power Plants, while fusion would be happening inside the core of the plasma, enough high energy particles will leak out of the magnetic bottle and would be diverted towards the so-called target plate where they hit a surface. This flux of particles would carry enough heat to melt all known materials to humans so far. Thus, we plan on using impurity neutral gas seeding near the target plates to "extinguish" the flux by radiating away most of it's energy. However, if too much impurity is seeded, it can find it's way to the core of the plasma and cool it internally leading to low efficiency and chances of dramatic disruptions. We don't want that. I'm working on this control problem to develop a reliable solution.
+
 ## Multicolor Calibration technique for gravitational wave detectors
 We are developing a new calibration method for gravitational wave detectors utilizing the co-resonating frequency doubled green laser in the arms. We'll demonstrate our method at the 40m prototype at Caltech, where we are aiming to reach 0.1 % uncertainty in detector absolute calibration. This work would allow future LIGO detectors to not be limited by calibration noise even for strong signals.
 
