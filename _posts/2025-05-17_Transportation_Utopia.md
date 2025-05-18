@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Transportation Utopia"
-date:   2025-05-17 17:00:00 -0700
+date:   2025-05-17 00:00:00 -0700
 author: Anchal Gupta
 categories: opinion
 ---
