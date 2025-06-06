@@ -9,7 +9,7 @@ categories: opinion
 <!-- # डूबो या तैरो: neuroscience शोध के गहरे पानी में रास्ता बनाना -->
 #### Shanahan Fellowship के ज़रिए मस्तिष्क के कार्य और neurodegenerative बीमारियों को समझने की दिशा में सफ़र।
 
-(Note: This is mostly a verbatim copy in Hindi of the article published [here](https://alleninstitute.org/news/sink-or-swim-navigating-the-deep-waters-of-neuroscience-research/) by Liz Dueweke of Allen Insitute. This page is to give access hindi speaking readers.)
+(Note: This is mostly a verbatim copy in Hindi of the article published [here](https://alleninstitute.org/news/sink-or-swim-navigating-the-deep-waters-of-neuroscience-research/) by Liz Dueweke of Allen Insitute. This page is to give access to hindi speaking readers.)
 
 <img style="float: right;" src="{{site.baseurl}}/data/figures/Anamika-Agrawal-Shanahan-3.jpg">
 
