@@ -108,8 +108,10 @@ To eat a pani puri:
 - Use glass to pour water in the puri as you hold it over your bowl.
 - Put the entire pani puri in your mouth in one go.
 
-Here are some photos of the chaos that will happen:
+Here are some photos of our past panin puri sessions:
+
 <img style="float: right;" src="{{site.baseurl}}/data/figures/Pani-Puri-1.jpg">
+
 
 <img style="float: right;" src="{{site.baseurl}}/data/figures/Pani-Puri-2.jpg">
 
