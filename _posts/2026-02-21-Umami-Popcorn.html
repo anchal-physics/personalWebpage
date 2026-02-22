@@ -1,0 +1,132 @@
+---
+layout: post
+title:  "Umami popcorn "
+date:   2026-02-21 00:00:00 -0700
+author: Anchal Gupta
+categories: opinion
+---
+
+<style>
+    .recipe-container {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 30px;
+        border: 1px solid #e1e4e8;
+        border-radius: 12px;
+        background-color: #fff;
+    }
+    .recipe-container h2, .recipe-container h3 {
+        color: #24292e;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    .scaler-box {
+        background-color: #f6f8fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border: 1px solid #d1d5da;
+    }
+    .scaler-box input {
+        width: 80px;
+        padding: 8px;
+        border: 1px solid #d1d5da;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+    .ingredient-list {
+        list-style: none;
+        padding: 0;
+    }
+    .ingredient-list li {
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .ingredient-list input[type="checkbox"] {
+        margin-right: 12px;
+        cursor: pointer;
+    }
+    .qty {
+        font-weight: bold;
+        color: #d73a49;
+    }
+    .philosophy-section {
+        background-color: #fff9f0;
+        padding: 20px;
+        border-left: 4px solid #f39c12;
+        margin-top: 30px;
+        font-style: italic;
+    }
+    hr {
+        border: 0;
+        border-top: 1px solid #eaecef;
+        margin: 25px 0;
+    }
+</style>
+
+<div class="recipe-container">
+    <h2>Peri-Peri Inspired Umami Popcorn</h2>
+    <p>This recipe balances the fibrous, starchy nature of popcorn with a complex profile of acidity, salt, and deep umami.</p>
+
+    <div class="scaler-box">
+        <label for="cornAmount"><strong>Unpopped Kernels (grams):</strong></label>
+        <input type="number" id="cornAmount" value="50" min="1" oninput="updatePopcorn()">
+    </div>
+
+    <h3>Ingredients</h3>
+    
+    <h4>The Pop</h4>
+    <ul class="ingredient-list">
+        <li><input type="checkbox"> <span><span class="qty" data-base="50">50</span>g Popcorn kernels (approx. 3 tbsp)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="1">1</span> tsp Ghee (or butter, vegan butter, olive oil, or avocado oil)</span></li>
+    </ul>
+
+    <h4>The Seasoning (The "Runny Paste")</h4>
+    <ul class="ingredient-list">
+        <li><input type="checkbox"> <span><span class="qty" data-base="3">3</span> tsp Ghee (or butter/oil of choice)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.5">0.5</span> tsp Amchur powder (dried raw mango powder)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.5">0.5</span> tsp Kala Namak (black salt)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.25">0.25</span> tsp MSG</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="1.5">1.5</span> tsp Paprika powder (adjust to taste)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.25">0.25</span> tsp Garlic powder</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.25">0.25</span> tsp Onion powder</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.25">0.25</span> tsp Salt (adjust to taste)</span></li>
+    </ul>
+
+    <h3>Instructions</h3>
+    <ol>
+        <li><strong>Pop the Kernels:</strong> Using a silicone popcorn popper or your preferred method, combine the kernels and 1 tsp of fat. Heat until the popping slows to 1-2 seconds between pops.</li>
+        <li><strong>Prepare the Seasoning:</strong> In a small bowl, melt your 3 tsp of fat. Whisk in the Amchur, Kala Namak, MSG, paprika, garlic powder, onion powder, and salt until it forms a <strong>runny paste</strong>.</li>
+        <li><strong>The Toss:</strong> While the popcorn is hot, drizzle the paste over the bowl.</li>
+        <li><strong>The Spread:</strong> Stir or shake constantly while pouring to ensure every nook and cranny of the popcorn is coated in that umami goodness.</li>
+    </ol>
+
+    <div class="philosophy-section">
+        <h3>Philosophy</h3>
+        <p>Popcorn is a fiberous (15% by weight) and starchy (Complex carbohydrates 78% by weight). For me personally, such fiberous starch tastes best in savory form with umami flavoring. In search for unami, I go with onion and garlic powder. I simply add some msg too (there is no shame in it and it tastes good. It’s just a salt that’s present in many natural food sources, in both animal based and llant based food products. Extracting msg is no more different than extract salt from ocean, adding Iodine for health in it and adding it to your food. Your body can regulate intake based on needs and while remaining below the commonsense saltiness level, you can enjoy both salt and msg for enhancing taste in their particular directions. I also kala namak (black salt) from India which has a very unique sulfurous salti taste, adds both saltiness and umami. I adds a counterbalancing of Amchur powder (dried raw mango powder). Amchur is great way of adding acidity, a fruity sourness, into any dish. It’s particularly good on dry stuff.</p>
+        <p>Then comes the queen of in this recipe, the paprika powder (can also replace with other red chili powders to switch gears into other cuisines, Indian can use: tikhalal for kicking up the hotness, kashmiri lal for increasing the red color and aroma. Can make korean by using Gochugoru, Cayenne or Chipotle or habinero in Mexican). Tbh, I like paprika because it makes it closest to peri-peri which also had paprika and we enjoy peri-peri flavor a lot.</p>
+    </div>
+</div>
+
+<script>
+    function updatePopcorn() {
+        const baseCorn = 50;
+        const inputVal = document.getElementById('cornAmount').value;
+        const ratio = inputVal / baseCorn;
+        const qtySpans = document.querySelectorAll('.qty');
+
+        qtySpans.forEach(span => {
+            const base = parseFloat(span.getAttribute('data-base'));
+            let result = (base * ratio).toFixed(2);
+            // Clean up trailing zeros
+            span.innerText = result.replace(/\.00$/, '').replace(/(\.\d)0$/, '$1');
+        });
+    }
+</script>
