@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://anchal-physics.github.io/personalWebpage/feed.xml" rel="self" type="application/atom+xml" /><link href="https://anchal-physics.github.io/personalWebpage/" rel="alternate" type="text/html" /><updated>2026-02-22T03:12:18+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/feed.xml</id><title type="html">Anchal Gupta</title><subtitle></subtitle><entry><title type="html">Umami popcorn</title><link href="https://anchal-physics.github.io/personalWebpage/opinion/2026/02/21/Umami-Popcorn.html" rel="alternate" type="text/html" title="Umami popcorn" /><published>2026-02-21T07:00:00+00:00</published><updated>2026-02-21T07:00:00+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/opinion/2026/02/21/Umami-Popcorn</id><content type="html" xml:base="https://anchal-physics.github.io/personalWebpage/opinion/2026/02/21/Umami-Popcorn.html"><![CDATA[<style>
+    .recipe-container {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 700px;
+        margin: 20px auto;
+        padding: 30px;
+        border: 1px solid #e1e4e8;
+        border-radius: 12px;
+        background-color: #fff;
+    }
+    .recipe-container h2, .recipe-container h3 {
+        color: #24292e;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    .scaler-box {
+        background-color: #f6f8fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        border: 1px solid #d1d5da;
+    }
+    .scaler-box input {
+        width: 80px;
+        padding: 8px;
+        border: 1px solid #d1d5da;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+    .ingredient-list {
+        list-style: none;
+        padding: 0;
+    }
+    .ingredient-list li {
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+    }
+    .ingredient-list input[type="checkbox"] {
+        margin-right: 12px;
+        cursor: pointer;
+    }
+    .qty {
+        font-weight: bold;
+        color: #d73a49;
+    }
+    .philosophy-section {
+        background-color: #fff9f0;
+        padding: 20px;
+        border-left: 4px solid #f39c12;
+        margin-top: 30px;
+        font-style: italic;
+    }
+    hr {
+        border: 0;
+        border-top: 1px solid #eaecef;
+        margin: 25px 0;
+    }
+</style>
+
+<div class="recipe-container">
+    <h2>Peri-Peri Inspired Umami Popcorn</h2>
+    <p>This recipe balances the fibrous, starchy nature of popcorn with a complex profile of acidity, salt, and deep umami.</p>
+
+    <div class="scaler-box">
+        <label for="cornAmount"><strong>Unpopped Kernels (grams):</strong></label>
+        <input type="number" id="cornAmount" value="50" min="1" oninput="updatePopcorn()">
+    </div>
+
+    <h3>Ingredients</h3>
+    
+    <h4>The Pop</h4>
+    <ul class="ingredient-list">
+        <li><input type="checkbox"> <span><span class="qty" data-base="50">50</span>g Popcorn kernels (approx. 3 tbsp)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="1">1</span> tsp Ghee (or butter, vegan butter, olive oil, or avocado oil)</span></li>
+    </ul>
+
+    <h4>The Seasoning (The "Runny Paste")</h4>
+    <ul class="ingredient-list">
+        <li><input type="checkbox"> <span><span class="qty" data-base="3">3</span> tsp Ghee (or butter/oil of choice)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.5">0.5</span> tsp Amchur powder (dried raw mango powder)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.5">0.5</span> tsp Kala Namak (black salt)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.25">0.25</span> tsp MSG</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="1.5">1.5</span> tsp Paprika powder (adjust to taste)</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.25">0.25</span> tsp Garlic powder</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.25">0.25</span> tsp Onion powder</span></li>
+        <li><input type="checkbox"> <span><span class="qty" data-base="0.25">0.25</span> tsp Salt (adjust to taste)</span></li>
+    </ul>
+
+    <h3>Instructions</h3>
+    <ol>
+        <li><strong>Pop the Kernels:</strong> Using a silicone popcorn popper or your preferred method, combine the kernels and 1 tsp of fat. Heat until the popping slows to 1-2 seconds between pops.</li>
+        <li><strong>Prepare the Seasoning:</strong> In a small bowl, melt your 3 tsp of fat. Whisk in the Amchur, Kala Namak, MSG, paprika, garlic powder, onion powder, and salt until it forms a <strong>runny paste</strong>.</li>
+        <li><strong>The Toss:</strong> While the popcorn is hot, drizzle the paste over the bowl.</li>
+        <li><strong>The Spread:</strong> Stir or shake constantly while pouring to ensure every nook and cranny of the popcorn is coated in that umami goodness.</li>
+    </ol>
+
+    <div class="philosophy-section">
+        <h3>Philosophy</h3>
+        <p>Popcorn is a fiberous (15% by weight) and starchy (Complex carbohydrates 78% by weight). For me personally, such fiberous starch tastes best in savory form with umami flavoring. In search for unami, I go with onion and garlic powder. I simply add some msg too (there is no shame in it and it tastes good. It’s just a salt that’s present in many natural food sources, in both animal based and llant based food products. Extracting msg is no more different than extract salt from ocean, adding Iodine for health in it and adding it to your food. Your body can regulate intake based on needs and while remaining below the commonsense saltiness level, you can enjoy both salt and msg for enhancing taste in their particular directions. I also kala namak (black salt) from India which has a very unique sulfurous salti taste, adds both saltiness and umami. I adds a counterbalancing of Amchur powder (dried raw mango powder). Amchur is great way of adding acidity, a fruity sourness, into any dish. It’s particularly good on dry stuff.</p>
+        <p>Then comes the queen of in this recipe, the paprika powder (can also replace with other red chili powders to switch gears into other cuisines, Indian can use: tikhalal for kicking up the hotness, kashmiri lal for increasing the red color and aroma. Can make korean by using Gochugoru, Cayenne or Chipotle or habinero in Mexican). Tbh, I like paprika because it makes it closest to peri-peri which also had paprika and we enjoy peri-peri flavor a lot.</p>
+    </div>
+</div>
+
+<script>
+    function updatePopcorn() {
+        const baseCorn = 50;
+        const inputVal = document.getElementById('cornAmount').value;
+        const ratio = inputVal / baseCorn;
+        const qtySpans = document.querySelectorAll('.qty');
+
+        qtySpans.forEach(span => {
+            const base = parseFloat(span.getAttribute('data-base'));
+            let result = (base * ratio).toFixed(2);
+            // Clean up trailing zeros
+            span.innerText = result.replace(/\.00$/, '').replace(/(\.\d)0$/, '$1');
+        });
+    }
+</script>]]></content><author><name>Anchal Gupta</name></author><category term="opinion" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Pani puri recipe</title><link href="https://anchal-physics.github.io/personalWebpage/opinion/2025/11/27/Pani_Puri_Recipe.html" rel="alternate" type="text/html" title="Pani puri recipe" /><published>2025-11-27T07:00:00+00:00</published><updated>2025-11-27T07:00:00+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/opinion/2025/11/27/Pani_Puri_Recipe</id><content type="html" xml:base="https://anchal-physics.github.io/personalWebpage/opinion/2025/11/27/Pani_Puri_Recipe.html"><![CDATA[<h1 id="pani-puri---the-heart-of-indian-street-food">Pani puri - the heart of Indian street food</h1>
+
+<p>Pani puri is the heart of Indian street food. Particularly in central India, going out for pani puri or taking a break at a pani puri stall when you are out doing shopping is one of the most joyful parts of your life. It is one of those things that remind me how food can provide you immense pleasure and just make your day. It is quite funny that all this happens when you are literally about to cry because of how “hot” (chilli hot, not temperature wise) it is. In hindi, this taste is called “tikha”, “tikhat” in Marathi. Well, to be honest, some people just eat the mild or even sweet version of pani puri. There is something for everyone because it evades a predefined form and taste. Everyone has their own personal favorite way(s) of eating pani puri. So in a way, there is no “recipe” for pani puri, more like sharing my way of eating it here. I’m writing this mainly to help out a friend who recently asked me for it.</p>
+
+<h2 id="more-opinions">More opinions</h2>
+
+<p>Like I said, how to eat pani puri is just an opinion, but then this is my web page and you probably came here to read my opinion. I think pani puri is best served in eastern madhya pradesh where it is eaten with a warm filling of mattar (yellow pea/split pea) and mashed potatoes with cold tikha pani made out of fresh roasted jeera (cumin), pudina (mint), green chillies, and a khatai (tarting agent) like Amchur (dried mango), Imli (tamarind), lime or ascorbic acid. I like the Amchur one the most. In this part of India, pani puri is considered incomplete if it is not eaten with chopped raw onions.</p>
+
+<p>There are more varieties of stuffing, like black chana with potatoes or just diced boiled potatoes which I enjoy as well. Some parts of India use boondi (deep fried gram flour droplets) which I don’t like at all. I think its blasphemy.</p>
+
+<p>Other than stuffing, there is also variety in how you eat pani puri given all the ingredients in front of you. So apart from multiple kinds of stuffing, you can have what I call crunchy topping, like raw onion, daikon radish, finely chopped raw beetroot, sprouted moong, sprouted moath. Some people like to cleanse the palate while eating by following the pani puri with curd once in a while. Some people from Delhi region make this curd sweet, absolutely trash way of eating pani puri! I think the curd should be mildly salted. You can add a meethi (sweet) chutney made out of tamarind and jaggery to cleanse the palate once in a while as well. On the other hand, sometimes you might want to add an extra hot chutney that you prepared to spike up tikha once in a while. You can also eat it plain, just puri with the pani to properly taste just the pani. You can also eat it sukha (dry) without pani, with stuffing and toppings. Sometimes some nylon sev on these sukhi puri. From where I am, when you eat at a pani puri stall, you have the right to claim a free sukhi puri at the end, made to your liking, sometimes with salt or with meethi chutney.</p>
+
+<h2 id="pani---my-way-or-highway">Pani - my way or highway</h2>
+
+<ul>
+  <li>Roast 1/2 cup of jeera (cumin) on a pan on low-medium heat.
+    <ul>
+      <li>Be very patient at this stage, keep turning around the jeera so that it evenly roasts.</li>
+      <li>Roast until the color is warm brown and the whole kitchen is filled with aroma of jeera.</li>
+      <li>Immediately take out all the jeera from pan to stop over roasting and leave aside to let it cool down to room temperature.</li>
+      <li>Once cool, grind down the jeera into a fine powder, as fine as you can. A clean coffee grinder or Indian-style mixer is necessary for this step.</li>
+    </ul>
+  </li>
+  <li>Boil 2 cups of water and add 1/4 cup of amchur powder when the water starts boiling.
+    <ul>
+      <li>Amchur will absorb water and expand to create a paste. Add more water if the paste is too thick, need a running batter like consistency.</li>
+      <li>Simmer for a good 5 minutes. This process activates the tart flavor in Amchur, without this, it doesn’t taste like much.</li>
+    </ul>
+  </li>
+  <li>In an Indian style mixer (very fine and high power blender), make a paste of following (quantities in brackets for about 2 liters of final water):
+    <ul>
+      <li>Fresh cilantro (About 1.5 bunches)</li>
+      <li>Many green chillies upto taste (I add about 30 )</li>
+      <li>Fresh ginger root (About 2 inches)</li>
+      <li>Fresh Pudina (About 20 leaves)</li>
+      <li>Some water</li>
+    </ul>
+  </li>
+  <li>You would get a lush dark green paste. Do the above in batches if your mixer pot is small. It is important to blend everything finely so that water is not too muddy. Most people like it less green than me, so feel free to reduce the quantity of cilantro/pudina.</li>
+  <li>Now, in a big salad bowl or something similar, add some green paste and dilute it with some water.</li>
+  <li>Then add amchur paste, some jeera powder and black salt.</li>
+  <li>Taste and add components to balance khatta (tartness) with namkin (saltiness) and balance tikha from green paste with water dilution.</li>
+  <li>This way you slowly can increase your overall prepared water to desired quantity while tasting during the process to make sure you like what you make.</li>
+  <li>It is hard and almost impossible to give exact quantity of ingredients that should go in there because everyone has a different taste of their liking and fresh ingredients like chilli, ginger, pudina, and amchur have different levels of potency.</li>
+  <li>Along with black salt, you can use some chaat masala (which is mixture of black salt, amchur and few other ingredients).</li>
+  <li>You can also use table salt, but add it more slowly than black salt as table salt is more salty.</li>
+  <li>Once you are ready with the water, add a large cube of ice on it. If you don’t have such an ice cube, just freeze ice in a small plastic or stainless steel bowl. This doesn’t dilute the water too fast as the ice melts slower but keeps the water cold to near 0 degrees Celsius.</li>
+</ul>
+
+<h2 id="stuffings">Stuffings</h2>
+
+<h3 id="aloo">Aloo</h3>
+<ul>
+  <li>Pressure cook 2 russet potatoes for 2-3 whistles in salted water.</li>
+  <li>Making precuts on skin along the equator of the potato helps in peeling later.</li>
+  <li>Once cooked, peel the potatoes and mash them.</li>
+</ul>
+
+<h3 id="mattar">Mattar</h3>
+<ul>
+  <li>Soak mattar (yellow peas/split peas) in twice as much water overnight.</li>
+  <li>Pressure cook the mattar with salted water and get 4-5 whistles in your pressure cooker (about 15 minutes of cooking) to make the mattar thoroughly cooked.</li>
+  <li>Undercooking is more plausible than overcooking these. I like to keep the individual pea texture in the cooked mattar, but that might require some practice with your particular cooker and stove system.</li>
+  <li>Even if they get all mashed with one another, that’s better than uncooked mattar. Make sure you can split any cooked pea with the blunt edge of a spoon.</li>
+  <li>If the mattar is al dente, you can heat them on open stove for sometime to make them softer. They should not be able to bounce around like balls, they should be softer than that.</li>
+  <li>Once cooked, you can simmer the mattar in a pot and add turmeric to give it a slight yellow color like yellow daal. In principle you can add turmeric in the salted water when you are pressure cooking, but there are chances of yellow spraying of your kitchen by the pressure cooker, so I avoid it. But tbh, adding turmeric in pressure cooker is the OG way of doing it.</li>
+  <li>While simmering, add mashed potatoes (I like 3 parts mattar, 1 part potatoes) and stir gently to mix the potatoes well. Add some water if required to help in mixing.</li>
+  <li>Taste and add salt if required.</li>
+  <li>Keep mattar mwarm, at about 40-50 degrees Celsius to enjoy it in the best way while eating with pani puri.</li>
+</ul>
+
+<h3 id="chana">Chana</h3>
+<ul>
+  <li>Soak black chana in twice as much water overnight.</li>
+  <li>Pressure cook in salted water for 3 whistles in pressure cooker. Unlike mattar, black chana cooks more easily after soaking and is most tasty when the individual chana can bounce around. So cooking this to al dente is better.</li>
+  <li>I save the water in which black chana was cooked as it turns into a very tasty soup that can be enjoyed for next day breakfast.</li>
+  <li>When cooked, remove all excess water from chana.</li>
+  <li>Add chana to mashed potatoes (1:1 ratio preferred).</li>
+  <li>Taste and add salt if required.</li>
+  <li>Optionally, you can add some coriander powder and red chilli powder to make this mix spicier and more tikha than the mattar mix.</li>
+</ul>
+
+<h2 id="add-ons">Add ons</h2>
+
+<h3 id="meethi-chutney">Meethi chutney</h3>
+<ul>
+  <li>Add 3 tablespoons of tamarind concentrate, 1 table spoon of jaggery, and 1 table spoon of water in a bowl</li>
+  <li>Add fresh ground black pepper, upto your taste how much you like. It doesn’t make it tikha but it makes it very flavourful.</li>
+  <li>Microwave for about 10-15 seconds until the jaggery melts. Mix well and microwave more if jaggery has not melted completely.</li>
+</ul>
+
+<h3 id="curd">Curd</h3>
+<ul>
+  <li>Mix some curd in a serving bowl with a few pinches of salt.</li>
+  <li>Optionally, you can add red chilli powder and roasted jeera powder as well.</li>
+</ul>
+
+<h3 id="crunchy-stuff">Crunchy stuff</h3>
+<ul>
+  <li>Finely chop atleast 1 onion per 2 people who will be eating it. I have always ran out of onions whenever I served pani puri to my friends.</li>
+  <li>Finely chop daikon radish. This provides same physical texture but different taste than onion, so it complements it.</li>
+  <li>Finely chop raw beetroot. Beetroot gives same texture, different dimension in taste and a very appealing visual color as a topping.</li>
+  <li>Some nylon sev in a serving bowl.</li>
+</ul>
+
+<h2 id="how-to-eat">How to eat</h2>
+
+<p>I won’t deny that the best way to eat pani puri is to go out in a street stall in India and have the person serve it to you. But when making it yourself there are several advantages of eating at home:</p>
+<ul>
+  <li>You can eat literally as much as you like</li>
+  <li>You can pace yourself</li>
+  <li>You can play around with different combinations and taste</li>
+</ul>
+
+<p>So when eating in a group, I make all my friends to stand around a long table with all the ingredients in the center. Everyone gets:</p>
+<ul>
+  <li>A plate to take personal portions of puris, stuffings and topings</li>
+  <li>A bowl it over so that spilled pani doesn’t create much mess.</li>
+  <li>A small glass with pani.</li>
+  <li>A spoon (optional)</li>
+</ul>
+
+<p>To eat a pani puri:</p>
+<ul>
+  <li>You take a puri, find the side that is more translucent and feels brittle.</li>
+  <li>Use your thumb to poke a hole in the puri.</li>
+  <li>Add your stuffings and your toppings, in whatever combination you like.</li>
+  <li>Use glass to pour water in the puri as you hold it over your bowl.</li>
+  <li>Put the entire pani puri in your mouth in one go.</li>
+</ul>
+
+<p>Here are some photos of our past panin puri sessions:</p>
+
+<p><img style="float: right;" src="/personalWebpage/data/figures/Pani-Puri-1.jpg" /></p>
+
+<p><img style="float: right;" src="/personalWebpage/data/figures/Pani-Puri-2.jpg" /></p>
+
+<p>It is an incredibly fun activity to do with friends. It feels like a competition and brings everyone closer together.</p>]]></content><author><name>Anchal Gupta</name></author><category term="opinion" /><summary type="html"><![CDATA[Pani puri - the heart of Indian street food]]></summary></entry><entry><title type="html">Experimental Physicist Interview</title><link href="https://anchal-physics.github.io/personalWebpage/opinion/2025/11/18/Anchal_Gupta_Interview.html" rel="alternate" type="text/html" title="Experimental Physicist Interview" /><published>2025-11-18T07:00:00+00:00</published><updated>2025-11-18T07:00:00+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/opinion/2025/11/18/Anchal_Gupta_Interview</id><content type="html" xml:base="https://anchal-physics.github.io/personalWebpage/opinion/2025/11/18/Anchal_Gupta_Interview.html"><![CDATA[<h2 id="experimental-physicist-interview">Experimental Physicist Interview</h2>
+
+<p>(Note: This is mostly a verbatim copy in Hindi of the interview published <a href="https://theinterviewportal.com/2025/11/18/experimental-physicist-interview-2/">here</a> by Shyam Krishnamurthy of The Interview Portal. This page is to give access to hindi speaking readers.)</p>
+
+<p><img style="float: right;" src="/personalWebpage/data/figures/anchal-interview.jpg" /></p>
+
+<p>ऊर्जा की वैश्विक मांग इतनी अधिक है कि हमें ऊर्जा उत्पादन के ऐसे क्रांतिकारी तरीकों का आविष्कार करना होगा जो अनिवार्यतः असीमित हों तथा ग्रिड को स्वच्छ और विश्वसनीय बिजली की आपूर्ति की समस्या का समाधान कर सकें!</p>
+
+<p>हमारे अगले मार्गदर्शक डॉ. Anchal गुप्ता, ब्लू लेजर फ्यूजन (कैलिफोर्निया) में वरिष्ठ स्टाफ वैज्ञानिक के रूप में कार्यरत हैं। यह एक ऐसी कंपनी है जो नवीन लेजर फ्यूजन प्रौद्योगिकी के माध्यम से स्वच्छ ऊर्जा चुनौतियों का समाधान कर रही है।</p>
+
+<p>Anchal ने द इंटरव्यू पोर्टल के श्याम कृष्णमूर्ति से  experimental physics में अपने करियर पथ के बारे में बात की, जो परिशुद्ध नियंत्रण, optics और nuclear fusion आधारित प्रौद्योगिकियों में उच्च प्रभाव वाले वैज्ञानिक अनुसंधान के चौराहे पर स्थित है, जो climate change को कम कर सकते हैं।</p>
+
+<p>छात्रों के लिए, वह काम करने की यात्रा आसान नहीं होगी जिसे वे सचमुच पसंद करते हैं, लेकिन यदि आपका दृष्टिकोण सही है, तो हर चुनौती हल करने के लिए एक और पहेली बन जाती है।</p>
+
+<h3 id="anchal-आपके-बचपन-के-दिन-कैसे-थे">Anchal, आपके बचपन के दिन कैसे थे?</h3>
+
+<p>मैं मध्य प्रदेश के सारनी में एक कोयला-आधारित ताप विद्युत संयंत्र के आसपास बसी एक छोटी सी बस्ती में पला-बढ़ा। यह सुदूर कस्बा सतपुड़ा के पहाड़ी जंगलों के बीच बसा था, जो वन्यजीवों और प्राकृतिक सुंदरता से घिरा हुआ था, लेकिन दुनिया से कुछ हद तक कटा हुआ भी था। सबसे नज़दीकी रेलवे स्टेशन 18 किलोमीटर दूर था, और शहरों तक पहुँचने के लिए ट्रेन से जाना पड़ता था। वहाँ कुछ किताबों की दुकानें और कुछ अच्छे स्कूल थे, बस इतना ही। मुझे याद है कि मैं अपने आस-पास की प्राकृतिक सुंदरता और ताप विद्युत संयंत्र की अद्भुत इंजीनियरिंग क्षमता, दोनों से मंत्रमुग्ध हो जाता था। ऐसा लगा जैसे मुझे प्रकृति और तकनीक के बीच एक दुर्लभ सामंजस्य का अनुभव हो रहा हो।</p>
+
+<p>हालाँकि, मैं देख सकता था कि कोयले से चलने वाला बिजली संयंत्र प्राकृतिक पर्यावरण को कैसे प्रदूषित कर रहा था, और कैसे समय के साथ यह और भी बदतर होता जा रहा था। मेरे पिता उस बिजली संयंत्र में एक इलेक्ट्रिकल इंजीनियर थे और बिजली और सामान्य physics से जुड़े मेरे अनगिनत सवालों के जवाब देते थे। वे मेरे लिए छोटे-छोटे इलेक्ट्रॉनिक पुर्जे घर लाते थे जिनसे मैं खेलता था, नए सर्किट बनाता और खोजता था, और 10 साल की छोटी सी उम्र में ही वोल्टेज और करंट की अवधारणाओं को समझने में मदद करता था!</p>
+
+<p>एक बात मेरे लिए ज़िंदगी की शुरुआत में ही साफ़ हो गया था: मुझे प्रकृति के नियमों का अध्ययन करना और वास्तविक जीवन के प्रयोग करके अपनी आँखों से देखना और खुद महसूस करना पसंद था कि चीज़ें कैसे काम करती हैं। मुझे याद है कि मैंने बस कुछ चुम्बकों से खेलकर यह पता लगा लिया था कि मोटर कैसे काम करती है। मुझे एक नई खोज का रोमांच महसूस हुआ। मैंने अपने पिताजी से पूछा कि क्या मेरी खोज सही था। इससे कोई फ़र्क़ नहीं पड़ता कि इंसानों ने मुझसे सौ साल पहले बिजली और चुम्बकों से मोटर बनाना सीख लिया था—यह तथ्य कि मैंने खुद कुछ सोचा और एक रहस्य सुलझाया, एक रोमांचक खोज था, जो मेरे द्वारा अनुभव की जा सकने वाली किसी भी चीज़ से सौ गुना बेहतर था।</p>
+
+<h3 id="आपने-किस-विषय-में-पढ़ाई-की">आपने किस विषय में पढ़ाई की?</h3>
+
+<p>मैंने आईआईटी बॉम्बे से इंजीनियरिंग फिजिक्स में बी.टेक. किया और उसके बाद Caltech से फिजिक्स में मास्टर्स और पीएचडी की। लेकिन physicist बनने का फैसला कॉलेज से बहुत पहले, लगभग 12 साल की उम्र में ही ले लिया था। सच कहूँ तो, मुझे ठीक से पता भी नहीं था कि फिजिक्स क्या होती है, वैज्ञानिक होने का मतलब तो दूर की बात है, लेकिन मेरे लिए, laboratory में काम करना और प्रकृति के नियमों को समझना ही एकमात्र ऐसा काम था जिसकी मैं बड़े होकर कल्पना कर सकता था।</p>
+
+<p>इस बचपन के सपने ने मुझे जल्द से जल्द जितना हो सके उतना physics सीखने के लिए एकाग्र प्रयास करने के लिए प्रेरित किया, ताकि मैं खुद को इस प्रयास के लिए एक अच्छी स्थिति में ला सकूँ। मुझे पता था कि एक अनजान जगह से आकर, physicist बनना एक बेमानी सपना लग सकता है, लेकिन मैं अभी इसे छोड़ना नहीं चाहता था। मैं देखना चाहता था कि मैं वास्तव में कितना आगे जा सकता हूँ। अपने सपने को साकार करने के लिए, मुझे यह विश्वास करना था कि अगर मैं बस पूरी कोशिश करूँ तो यह पूरी तरह से संभव है।</p>
+
+<p>एक चीज़ जिसने मेरी बहुत मदद की, वह थी मेरा एक बड़ा भाई जो मुझसे पाँच साल बड़ा था। उसने न सिर्फ़ मुझे भविष्य के जीवन के पड़ावों की झलक दिखाई, बल्कि स्कूल में जो कुछ भी सीखा था, उसे भी समझा दिया, क्योंकि मैं हमेशा से ही physics से जुड़ी हर चीज़ के बारे में जानने के लिए उत्सुक रहता था। नौवीं कक्षा तक, मैंने उसकी ग्यारहवीं और बारहवीं कक्षा की physics की पाठ्यपुस्तकें, जेईई की तैयारी की किताबें, और रूसी physics की समस्या-पुस्तिकाएँ पढ़ना शुरू कर दिया था। मुझे यह स्पष्ट हो गया कि physics के प्रति मेरी जिज्ञासा के कारण, यह मेरे लिए आसान लगने लगा—ऐसा लगा जैसे मैं कोई खेल खेल रहा हूँ, न कि वास्तव में पढ़ाई कर रहा हूँ। जीवन भर ऐसा करने का मतलब होगा जीवन भर आनंद!</p>
+
+<p>हाई स्कूल में ही मुझे यह स्पष्ट हो गया था कि मेरे करियर की आकांक्षाएँ मेरे साथियों से अलग हैं। मेरे ज़्यादातर दोस्त कंप्यूटर साइंस इंजीनियर बनना चाहते थे या किसी तरह वित्त, व्यापार या कंसल्टेंसी में ऊँची तनख्वाह वाली, सम्मानजनक नौकरी पाना चाहते थे। किसी तरह, यह रास्ता इंजीनियरिंग की डिग्री हासिल करने तक ही सीमित रहा, जो भारत की एक अनोखी बात है।</p>
+
+<h3 id="वे-कौन-से-प्रमुख-प्रभाव-थे-जिन्होंने-आपको-physics-में-एक-अनोखे-अपरंपरागत-और-अनोखे-करियर-की-ओर-अग्रसर-किया">वे कौन से प्रमुख प्रभाव थे जिन्होंने आपको physics में एक अनोखे, अपरंपरागत और अनोखे करियर की ओर अग्रसर किया?</h3>
+
+<p>मुझे पता था कि मुझे भीड़ से अलग कुछ करना होगा, वरना मैं अपने सपने से बहुत दूर रह जाऊँगा। शुक्र है कि मुझे जेईई में इतनी अच्छी रैंक मिली कि मैं आईआईटी बॉम्बे में इंजीनियरिंग फिजिक्स में दाखिला ले सका। यही एक ऐसी जगह थी जहाँ से मैं कुछ छात्रों को दुनिया भर की अत्याधुनिक laboratoryओं में फिजिक्स में पीएचडी करते हुए देख सकता था।</p>
+
+<p>मुझे हैरानी हुई कि मेरे माता-पिता और भाई, जो इतने समय से मुझे बहुत प्रोत्साहित कर रहे थे, अचानक मुझे physics लेने से मना कर दिया। यह लगभग एक वर्जित क्षेत्र था—मानो मैं अपने करियर के लिए आत्महत्या कर रहा था। मुझे जो करना था, उसके लिए मुझे कड़ा संघर्ष करना पड़ा और ज़िद करनी पड़ी। 2012 की गर्मियों के वे कुछ हफ़्ते बहुत कठिन थे। मेरे माता-पिता मुझसे निराश थे। मुझे उन पर अपनी इच्छा थोपने की कोशिश करने का अपराधबोध हुआ, जबकि उन्होंने अनगिनत त्याग किए थे ताकि मैं इस मुकाम पर पहुँच सकूँ जहाँ मेरे पास research करियर बनाने जैसा विशेषाधिकार प्राप्त विकल्प भी था।</p>
+
+<p>इस समय, मैंने IISc बैंगलोर के प्रोफ़ेसर पीएस अनिल कुमार को ईमेल किया। मैं उनसे साल की शुरुआत में केवीपीवाई कैंप में कुछ देर के लिए मिला था। उन्होंने मेरे पिताजी से फ़ोन पर बात करने की पेशकश की। मैंने अपने पिताजी से कहा कि वे उनसे बात करें। प्रोफ़ेसर कुमार उस समय मेरे पिताजी को मना नहीं पाए होंगे, लेकिन एक प्रतिष्ठित संस्थान के प्रोफ़ेसर का मेरे करियर के चुनाव के साथ खड़ा होना, मेरे लिए बहुत बड़ा प्रभाव डाला। आखिरकार मेरा परिवार मान गया और मुझे IIT बॉम्बे में इंजीनियरिंग फ़िज़िक्स चुनने की इजाज़त मिल गया।</p>
+
+<p>हालाँकि, यह तो बस संघर्ष की शुरुआत था। अगले चार सालों तक, मुझे जी-जान से पढ़ाई और कड़ी मेहनत करनी पड़ी—कुछ तो अपने माता-पिता को अपने करियर के चुनाव के बारे में गलत साबित करने के लिए और कुछ खुद को यह साबित करने के लिए कि मुझमें एक physicist बनने के लिए ज़रूरी गुण हैं। मुझे जल्दी ही एहसास हो गया कि physics उससे कहीं बढ़कर है जो मैंने हाई स्कूल में देखा था, और मैं उत्साहित तो था, लेकिन साथ ही अनजान भी था। मुझे बहुत सारे विषयों में रुचि थी और समझ नहीं आ रहा था कि कैसे या क्यों किसी एक विषय में रुचि होने का दिखावा करूँ।</p>
+
+<p>मुझे लगा कि अपनी असली रुचि खोजने का सबसे अच्छा तरीका यह है कि मैं अपने graduate स्तर पर कई विषयों को आज़माऊँ, कौशल सीखूँ, गणित और सैद्धांतिक physics सीखूँ। मैंने अपनी कक्षाओं से पहले पढ़ाई करने के लिए ऑनलाइन कोर्स किए और कई कार्यक्रमों और कार्यशालाओं के लिए आवेदन किया ताकि मैं हमेशा कुछ न कुछ करता रहूँ, यहाँ तक कि सर्दियों की छुट्टियों और हर गर्मियों में भी। मुझे कनाडा के मॉन्ट्रियल स्थित मैकगिल university में एक इंटर्नशिप कार्यक्रम के लिए चुना गया। वहाँ मैंने प्रोफ़ेसर लिलियन चाइल्ड्रेस के साथ काम किया, जो optical और quantum physics के गहन प्रयोगों का मेरा पहला व्यावहारिक अनुभव था। हालाँकि मैं लंबे समय तक काम करता था, फिर भी मैंने हर पल का आनंद लिया और चाइल्ड्रेस लैब में बहुमूल्य experimental कौशल सीखे। मेरे काम का परिणाम मेरा पहला प्रकाशन था।</p>
+
+<h3 id="हमें-अपने-करियर-पथ-के-बारे-में-बताएँ">हमें अपने करियर पथ के बारे में बताएँ</h3>
+
+<p>भारत वापस आने पर, मैंने आईआईटी बॉम्बे में प्रोफ़ेसर प्रदीप सरीन के साथ सिंगल क्रिस्टल डायमंड पार्टिकल डिटेक्टरों के लक्षण वर्णन पर काम किया और electronics और physics माप विज्ञान का अनुभव प्राप्त किया जो आगे चलकर मेरे करियर में बहुत काम आया। प्रोफ़ेसर सरीन ने अमेरिका और कनाडा में पीएचडी कार्यक्रमों के लिए मेरे आवेदनों में भी बहुत सहयोग किया। मैंने 15 graduate संस्थानों में आवेदन किया क्योंकि मैं आगे चलकर पीएचडी कार्यक्रम में शामिल न होने की कोई गुंजाइश नहीं छोड़ना चाहता था। मुझे आश्चर्य हुआ कि मुझे वास्तव में 11 universities में प्रवेश मिल गया और मैंने अपने graduate संस्थान के लिए Caltech को चुना।</p>
+
+<p>ग्रेजुएट स्कूल की कहानी बेहद पेचीदा है। पढ़ाई पूरी करने के तुरंत बाद, मैं Caltech पहुँच गया जहाँ मुझे एप्लाइड फिजिक्स के एक ग्रुप में शामिल होना था और सुपरकंडक्टिंग क्वाबिट्स पर काम करना था। चाइल्ड्रेस लैब में इस क्षेत्र से अपने शुरुआती परिचय से ही मुझे quantum कम्प्यूटेशन में रुचि था, लेकिन अब मुझे सुपरकंडक्टिंग क्वाबिट्स और एक सामान्य quantum कम्प्यूटेशन laboratory में रोज़मर्रा के काम के बारे में बहुत कम जानकारी था। मैं उस ग्रुप में 20 महीने से ज़्यादा समय तक रहा, मुझे लग रहा था कि कुछ गड़बड़ है, लेकिन मैं ठीक-ठीक नहीं बता पा रहा था कि क्या गड़बड़ है। सलाहकार के साथ मेरे रिश्ते अच्छे नहीं थे—वह गाली-गलौज करता था, और मुझे अपने सपनों का बोझ उठाना था और मैं ठीक से समझ नहीं पा रहा था कि मेरे साथ क्या हो रहा है। हालाँकि मैं अब भी आश्वस्त था कि मैं एक experimental physicist बनना चाहता हूँ, लेकिन मुझे जो लैब वर्क मिल रहा था, वह मुझे ठीक नहीं लग रहा था। माहौल विषाक्त लग रहा था, और मुझे खुद को असफल करने का अपराधबोध हो रहा था। मुझे काम पर जाने में डर लग रहा था और सलाहकार द्वारा डाँटे जाने का डर हमेशा बना रहता था। एक दौर ऐसा भी आया जब मुझे लगा कि मैं जहाँ से शुरू किया था, वहाँ से बहुत आगे निकल आया हूँ और मेरी साँस फूल रही था। शायद भारत के एक छोटे से कस्बे से आकर, जिस तरह से मैंने सोचा था, उस तरह से physicist बनना मुमकिन नहीं था, या शायद मैं वह मौका पहले ही गँवा चुका था। शायद मैं काफ़ी अच्छा नहीं था।</p>
+
+<p>शुक्र है, मेरा पार्टनर (जो अब मेरी पत्नी है) ने इस मुश्किल दौर से उबरने में मेरी मदद की और मुझे इस ग्रुप को छोड़कर Caltech में कहीं और बेहतर विकल्प तलाशने के लिए राज़ी किया। यह पहली बार था जब मैं किसी चीज़ में नाकाम रहा था, और मैं बहुत दुखी था। मुझे यह भी नहीं पता था कि आगे कैसे और कहाँ से शुरुआत करूँ। मैंने Caltech में एक शिक्षण सहायक के रूप में काम किया और साथ ही ऐसे दूसरे research समूहों की तलाश में रहा जहाँ कोई रिक्त स्थान हो और जहाँ मैं अच्छी तरह से फिट हो सकूँ। मुझे एक समूह ढूँढ़ने में छह हफ़्ते से ज़्यादा का समय लगा।</p>
+
+<p>मैं physics विभाग में प्रोफ़ेसर राणा अधिकारी के समूह में शामिल हो गया, जो प्रसिद्ध LIGO सहयोग के साथ experimental gravitational waves का पता लगाने पर काम करते थे—जिसके सदस्यों को पिछले वर्ष physics का नोबेल पुरस्कार मिला था। मुझे लगता है कि उनकी एक तहखाने में स्थित laboratory में optical टेबल पर काम करते हुए मुझे बस एक दिन लगा और मुझे एहसास हुआ: बस यही है! यही मैं जीवन भर करना चाहता हूँ।</p>
+
+<p>यह समूह विशुद्ध experimental physics था—थोड़ा सा electronics, थोड़ा सा optics, यांत्रिकी, सिग्नल प्रोसेसिंग, नियंत्रण, सब कुछ। मुझे वहाँ काम करने में इतना मज़ा आया कि मैं अगले दिन का बेसब्री से इंतज़ार कर रहा था। जिस तरह से मैं इस काम में रम गया, मुझे लगा कि यह मेरे लिए स्वाभाविक है। मैं फिर से वही बच्चा था जो सीखने और समझने के लिए, किसी खराब हुई चीज़ को ठीक करने के लिए, और हमारे प्रयोग में समस्याओं को हल करने के नए तरीके ईजाद करने के लिए कई चीज़ें आज़मा रहा था। graduate स्कूल के साथ आने वाली चुनौतियाँ अभी भी थीं, लेकिन जब आपको अपना काम पसंद आता है, तो बाकी सब गौण हो जाता है। हर गुज़रते महीने और साल के साथ, मुझे लगा जैसे मेरे कौशल और ज्ञान में तेज़ी से वृद्धि हो रही है। मुझे यकीन नहीं था कि मैं कभी optical कैविटी लॉकिंग और सटीक माप विज्ञान का विशेषज्ञ बन पाऊँगा। मैं अपने टेबलटॉप प्रयोग में हर दिन एक प्रोटॉन के आधे आकार के विस्थापन को माप रहा था!</p>
+
+<h3 id="आपके-सामने-कौन-सी-चुनौतियाँ-आईं-और-आपने-उनका-समाधान-कैसे-किया">आपके सामने कौन सी चुनौतियाँ आईं और आपने उनका समाधान कैसे किया?</h3>
+
+<p>अपने graduateोत्तर अध्ययन के उत्तरार्ध में, जैसे-जैसे मेरा अनुभव बढ़ता गया, मैंने सोचना शुरू किया कि पीएचडी के बाद मैं क्या करूँगा। कुछ छात्रों ने universities में पोस्टडॉक्टरल अध्ययन किया और अकादमिक क्षेत्र में संकाय बनने का प्रयास किया, लेकिन मैं laboratory में ही रहना चाहता था, अन्य विशेषज्ञों के साथ विज्ञान का अध्ययन करना चाहता था और किसी कठिन और चुनौतीपूर्ण समस्या का समाधान करना चाहता था। साथ ही, मैं इस बात से भी अधिकाधिक परिचित होता गया कि मानवता किस प्रकार पृथ्वी को नष्ट कर रही है। ग्लोबल वार्मिंग हम सभी को कैसे प्रभावित कर रही है, लाखों प्रजातियों को खतरे में डाल रही है, और जिस दुनिया को हम जानते हैं उसे हमेशा के लिए बदल रही है।</p>
+
+<p>अचानक, मुझे अपने आनंद और ब्रह्मांड के बारे में जिज्ञासा के लिए विज्ञान करना एक स्वार्थी खोज जैसा लगने लगा, एक विशेषाधिकार जो शायद हमने खो दिया है, या कम से कम हममें से कुछ भौतिकविदों को सही कौशल के साथ climate change की ओर अपना ध्यान आकर्षित करने की आवश्यकता था।</p>
+
+<h3 id="experimental-physics-में-अपने-करियर-के-बाद-आपको-पहला-ब्रेक-कैसे-मिला">experimental physics में अपने करियर के बाद आपको पहला ब्रेक कैसे मिला?</h3>
+
+<p>मैंने तय किया कि मैं खुद को एक ऐसे करियर में लगाऊँगा जहाँ एक सटीक माप वैज्ञानिक के रूप में मेरे कौशल का उपयोग climate change की समस्या को हल करने में किया जा सके। हो सकता है कि मैं अकेले सब कुछ न बदल सकूँ, लेकिन मेरे काम के घंटे इस लक्ष्य की दिशा में मेरा सबसे बड़ा योगदान थे। ऊर्जा उत्पादन के उद्देश्य से नियंत्रित nuclear fusion प्राप्त करने की समस्या में मेरी रुचि बढ़ गया। पृथ्वी पर हमारे सामने आने वाली लगभग हर समस्या—ग्रीनहाउस गैस उत्सर्जन, पानी की कमी, प्लास्टिक कचरा—का समाधान किया जा सकता है यदि हमारे पास ऊर्जा का एक विशाल, सस्ता और व्यावहारिक स्रोत हो।</p>
+
+<p>मैंने नियंत्रित nuclear fusion पर काम कर रहे कई संस्थानों से संपर्क करने की कोशिश की। मैंने प्लाज्मा physics का अध्ययन कभी नहीं किया था, लेकिन मुझे पता था कि मैं किसी नए विषय को सीखने, उसे सीखने और समस्याओं को हल करने में सक्षम हूँ। मुझे जनरल एटॉमिक्स में पोस्टडॉक्टरल research का पद मिला, जहाँ मैंने टोकामक के साथ नियंत्रित nuclear fusion पर अमेरिकी सरकार के ऊर्जा विभाग के अनुदान पर काम किया।</p>
+
+<p>टोकामक एक अत्यधिक विशिष्ट रिएक्टर है जो शक्तिशाली चुंबकीय क्षेत्रों का उपयोग करके अतितापित plasma को टोरस (डोनट) के आकार में सीमित करता है ताकि nuclear fusion प्राप्त हो सके, वही प्रक्रिया जिससे सूर्य को ऊर्जा मिलती है। इस प्रक्रिया में, ड्यूटेरियम और ट्रिटियम जैसे हाइड्रोजन समस्थानिकों को 10 करोड़ डिग्री सेल्सियस से अधिक तापमान पर गर्म किया जाता है, जिससे वे हीलियम में संलयित हो जाते हैं और भारी मात्रा में ऊर्जा मुक्त होती है। टोकामक चुंबकीय परिरोध संलयन की अग्रणी अवधारणा है, और इसका उद्देश्य स्वच्छ, लगभग असीमित ऊर्जा उत्पन्न करना है।</p>
+
+<p>मुझे जल्दी ही एहसास हो गया कि मैं अपने control systems के अनुभव से इस क्षेत्र की समस्याओं में बहुत योगदान दे सकता हूँ। plasma physics को समझना एक कठिन सीखने की प्रक्रिया था, लेकिन भारत से अमेरिका आए उस युवा graduate छात्र के विपरीत, मुझे अपने कौशल और क्षमताओं पर कहीं अधिक भरोसा था। मैंने जल्द ही उत्पादक research में कदम रखा, भविष्य के fusion reactor control systems के डिज़ाइनों में योगदान दिया और कोरिया गणराज्य में एक मौजूदा superconducting tokamak के लिए control systems और संचालन सहायता विकसित की। पिछले साल, मैं एक अत्याधुनिक fusion reactor के साथ लाइव प्रयोग करने के लिए वहाँ गया था—एक ऐसा क्षण जिसकी मैंने एक 12 वर्षीय लड़के के रूप में कभी कल्पना भी नहीं की थी जो एक experimental physicist बनने का सपना देखता था।</p>
+
+<p>मुझे बहुत खुशी है कि मैंने अपने रास्ते में आए हर संदेह और कठिनाई के पल में दृढ़ता से आगे बढ़ते हुए आगे बढ़ने का प्रयास किया। यह निश्चित रूप से आसान नहीं था, लेकिन मैं कुछ भी अलग नहीं कर सकता था। यहाँ तक कि मेरे graduate विद्यालय के पहले वर्ष का कठिन अनुभव भी एक मूल्यवान जीवन सबक था। इसका परिणाम यह हुआ कि मुझे Caltech से physics में पीएचडी प्राप्त हुई—एक ऐसी जीवन घटना जिस पर मुझे बेहद गर्व है, जिसने मुझे एक ऐसी संतुष्टि का एहसास दिलाया जो किसी और चीज़ से नहीं मिल सकता।</p>
+
+<h3 id="क्या-आप-हमें-अपने-वर्तमान-काम-के-बारे-में-बता-सकते-हैं-आप-कौन-सी-समस्याएँ-सुलझाते-हैं">क्या आप हमें अपने वर्तमान काम के बारे में बता सकते हैं? आप कौन-सी समस्याएँ सुलझाते हैं?</h3>
+
+<p>इस साल, मैं कैलिफ़ोर्निया के सांता बारबरा स्थित ब्लू laser फ़्यूज़न (BLF) नामक एक नई कंपनी में वरिष्ठ वैज्ञानिक के रूप में शामिल हुआ। BLF भी एक nuclear fusion कंपनी है, लेकिन यह इस समस्या का समाधान एक अलग विधि, जिसे जड़त्वीय परिरोध संलयन (इनर्शियल कन्फ़ाइनमेंट फ़्यूज़न) कहते हैं, के माध्यम से कर रही है, जिसमें संलयन ईंधन की एक गोली को एक तीव्र laser किरण का उपयोग करके प्रज्वलित किया जाता है। 2022 में, अमेरिका स्थित लॉरेंस लिवरमोर नेशनल लैब की नेशनल इग्निशन फ़ैसिलिटी ने इस विधि का उपयोग करके प्रज्वलन का प्रदर्शन किया, हालाँकि उन्हें अभिक्रिया द्वारा उत्सर्जित ऊर्जा से 100 गुना अधिक ऊर्जा का उपयोग करना पड़ा। हमारी कंपनी का लक्ष्य इतनी दक्षता के साथ एक शक्तिशाली laser उत्पन्न करना है कि हम laser पल्स उत्पन्न करने में उपयोग की जाने वाली ऊर्जा की तुलना में अभिक्रिया से कम से कम 10 गुना अधिक ऊर्जा उत्पन्न कर सकें।</p>
+
+<p>इस कंपनी में आने का एक कारण यह भी था कि अमेरिकी सरकार ने climate change से संबंधित विज्ञानों में अनुसंधान निधि में भारी कटौती की है। साथ ही, gravitational wave खगोल विज्ञान में मेरे कौशल इस कंपनी में सीधे तौर पर लागू हो रहे थे, मेरे पिछले पोस्टडॉक्टरल पद की तुलना में कहीं ज़्यादा। इस तरह, यह मेरे लिए एकदम सही है। मुझे laser, optical कैविटीज़, electronics और control systems के साथ काम करने का मौका मिलता है, मैं अपने पसंदीदा रोज़मर्रा के experimental कार्य करता हूँ, साथ ही एक कठिन physics समस्या का समाधान भी करता हूँ और climate change को रोकने में योगदान देता हूँ। दरअसल, Caltech में प्रोफ़ेसर अधिकारी का research समूह भी हमारे काम में हमारे साथ शामिल है।</p>
+
+<p>आपको अपने काम में क्या पसंद है?</p>
+
+<p>मैं अपनी कंपनी के physics के विचार में पूरी लगन से विश्वास करता हूँ, और यह हर दिन काम करने के लिए एक बहुत ही शक्तिशाली प्रेरक है। एक थका देने वाला कार्यदिवस भी एक अच्छे दिन जैसा लगता है क्योंकि मैं अपने लक्ष्य की ओर और अधिक काम करता हूँ। आमतौर पर, जब मैं काम पर जाता हूँ, तो हम सबसे पहले अपने प्रयोग की स्थिति पर चर्चा करते हैं और उस दिन किए जाने वाले experimental कार्य की योजना बनाते हैं। इसमें अक्सर क्लीनरूम पोशाक में हमारे वैक्यूम सिस्टम के साथ काम करना शामिल होता है ताकि 15 मीटर लंबे experimental सेटअप पर optical घटकों को स्थापित और समायोजित किया जा सके। हम अक्सर उन्नत control systems के साथ काम करते हैं, electronics और डेटा अधिग्रहण प्रणालियों को स्थापित करते हैं ताकि laser आवृत्ति को 15 मीटर लंबे optical कैविटी की अनुनाद आवृत्ति पर “लॉक” किया जा सके। इसे हासिल करना एक कठिन काम है, और ऐसे कई बिंदु हैं जहाँ हम उच्च आउटपुट laser पावर के लक्ष्य तक पहुँचने के लिए सेटअप में सुधार करते रहते हैं। हम जिन laserों के साथ काम करते हैं वे इन्फ्रारेड हैं, इसलिए वे दिखाई नहीं देते, लेकिन वे त्वचा को जलाने या किसी को हमेशा के लिए अंधा करने के लिए पर्याप्त तीव्र होते हैं, इसलिए हम सुरक्षा चश्मे और पर्याप्त सुरक्षा सावधानियों के साथ काम करते हैं। हालांकि यह एक अतिरिक्त बोझ की तरह लगता है, लेकिन ऐसी laboratory में काम करना अच्छा लगता है - विज्ञान के क्षेत्र में अग्रणी और विश्व रिकॉर्ड बनाने तथा नए उपकरणों और विधियों का आविष्कार करने की दहलीज पर।</p>
+
+<h3 id="आपके-काम-से-समाज-को-क्या-लाभ-होता-है">आपके काम से समाज को क्या लाभ होता है?</h3>
+
+<p>हालाँकि मेरा काम समाज में किसी को सीधे तौर पर कोई सेवा प्रदान नहीं करता, लेकिन वैज्ञानिक अनुसंधान की भूमिका अज्ञात की सीमाओं को आगे बढ़ाना और दुनिया के सामने नया ज्ञान और तकनीक लाना है। खास तौर पर, अगर हम सफल होते हैं, तो हम ऊर्जा उत्पादन का एक ऐसा तरीका ईजाद कर पाएँगे जो अनिवार्य रूप से असीमित होगा और ग्रिड को विश्वसनीय बिजली आपूर्ति की समस्या का समाधान कर सकेगा, जो वर्तमान में केवल fossil fuels या महंगे और खतरनाक nuclear fission के माध्यम से ही संभव है। अगर इसका विस्तार किया जाए, तो मानवता एक ऐसी सीमा पार कर सकती है जहाँ हम एक ऐसे समाज में रह रहे होंगे जहाँ ऊर्जा की कमी अतीत की बात होगी, जहाँ फेंके गए हर कचरे को या तो पुनर्चक्रित करके उसे प्रदूषण-मुक्त बनाया जाएगा, और जहाँ सभी को ताज़ा पानी आसानी से उपलब्ध होगा।</p>
+
+<p>भले ही हम अपनी कार्यप्रणाली में असफल हों, विज्ञान हमेशा वैज्ञानिकों के कई समूहों द्वारा किसी समस्या के समाधान के लिए कई तरीकों को आजमाने से आगे बढ़ता है। हर नकारात्मक परिणाम भविष्य के research कर्ताओं के लिए एक रास्ता तलाशता है, जहाँ वैज्ञानिक आँकड़े और ज्ञान उपलब्ध होते हैं। इसलिए यह और अधिक खोजने और अधिक हासिल करने की दिशा में निरंतर वैज्ञानिक प्रयासों के सागर में एक बूँद के समान है।</p>
+
+<h3 id="छात्रों-को-आपकी-सलाह">छात्रों को आपकी सलाह?</h3>
+
+<p>छात्रों को मेरी सलाह है कि सबसे पहले और सबसे ज़रूरी, एक छात्र बनें। यह अजीब लग सकता है, लेकिन किसी भी चीज़ में माहिर बनने का सबसे अच्छा तरीका है, लगातार सीखते रहना। जिज्ञासु बने रहें, असफल होने से न डरें, और जब आपको वह मिल जाए जो आपको पसंद है, तो अपनी पूरी ताकत से उसका पीछा करें।</p>
+
+<p>ध्यान दें कि मैं कह रहा हूँ, “जब आपको वो मिल जाए जो आपको पसंद है,” क्योंकि मैं जानता हूँ कि क्या करना है, इस बारे में अनिश्चित होना कैसा लगता है। मेरे जैसे किसी व्यक्ति के लिए यह बात अजीब लग सकती है, जिसने बचपन में ही physicist बनने का फैसला कर लिया था, लेकिन मुझे वास्तव में इसका मतलब नहीं पता था - मैं रास्ते में खोज और अन्वेषण के लिए तैयार था। उसी तरह, आपको जीवन में अलग-अलग रास्ते तलाशने के लिए तैयार रहना चाहिए। जो आपको पसंद आता है उसे चुनने से पहले अलग-अलग चीज़ें आज़माएँ। आधुनिक जीवन लंबा और अवसरों से भरा है; आपको बस अपने कम्फर्ट ज़ोन से बाहर निकलने और कुछ नया करने के लिए तैयार रहने की ज़रूरत है। यह सफ़र आसान नहीं होगा, लेकिन अगर आप वो कर रहे हैं जो आपको सचमुच पसंद है, तो हर चुनौती एक और पहेली बन जाती है जिसे सुलझाना है।</p>
+
+<p>करियर का चुनाव सिर्फ़ नौकरी ढूँढ़ने से कहीं ज़्यादा जटिल विषय है। हर करियर संतुष्टिदायक हो सकता है और समाज को कुछ न कुछ देता है। साथ ही, आप अपने वयस्क जीवन का लगभग एक-तिहाई हिस्सा काम में बिताएँगे, इसलिए ऐसा करियर चुनना समझदारी है जहाँ आप उस समय का आनंद उठा सकें और उससे जुड़ी ज़िंदगी से संतुष्टि महसूस कर सकें।</p>]]></content><author><name>Shyam Krishnamurthy (translated to hindi by Anchal Gupta)</name></author><category term="opinion" /><summary type="html"><![CDATA[Experimental Physicist Interview]]></summary></entry><entry><title type="html">डूबो या तैरो: neuroscience शोध के गहरे पानी में रास्ता बनाना</title><link href="https://anchal-physics.github.io/personalWebpage/opinion/2025/06/05/Anamika_AgrawaSink_or_Swim.html" rel="alternate" type="text/html" title="डूबो या तैरो: neuroscience शोध के गहरे पानी में रास्ता बनाना" /><published>2025-06-05T07:00:00+00:00</published><updated>2025-06-05T07:00:00+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/opinion/2025/06/05/Anamika_AgrawaSink_or_Swim</id><content type="html" xml:base="https://anchal-physics.github.io/personalWebpage/opinion/2025/06/05/Anamika_AgrawaSink_or_Swim.html"><![CDATA[<!-- # डूबो या तैरो: neuroscience शोध के गहरे पानी में रास्ता बनाना -->
+<h4 id="shanahan-fellowship-के-ज़रिए-मस्तिष्क-के-कार्य-और-neurodegenerative-बीमारियों-को-समझने-की-दिशा-में-सफ़र">Shanahan Fellowship के ज़रिए मस्तिष्क के कार्य और neurodegenerative बीमारियों को समझने की दिशा में सफ़र।</h4>
+
+<p>(Note: This is mostly a verbatim copy in Hindi of the article published <a href="https://alleninstitute.org/news/sink-or-swim-navigating-the-deep-waters-of-neuroscience-research/">here</a> by Liz Dueweke of Allen Insitute. This page is to give access to hindi speaking readers.)</p>
+
+<p><img style="float: right;" src="/personalWebpage/data/figures/Anamika-Agrawal-Shanahan-3.jpg" /></p>
+
+<p>जब Anamika Agrawal, Ph.D., ने Allen Institute में Shanahan Fellowship के लिए आवेदन किया, तब वह पहले से ही एक बदलाव पर विचार कर रही थीं—physical biology की दुनिया से computational और theoretical neuroscience के विशाल और जटिल क्षेत्र की ओर। लेकिन उस समय उन्हें इस बात का पूरा अंदाज़ा नहीं था कि यह अनुभव कितना गहन, चुनौतीपूर्ण और जीवन-परिवर्तनकारी होने वाला है।</p>
+
+<p>“मैं Allen Institute में पहले से नौकरियों की तलाश कर रही थी, तो जब ये अवसर सामने आया, तो मैंने तुरंत आवेदन कर दिया!” वह याद करती हैं। “यह Fellowship मेरे बदलाव के लिए एकदम उपयुक्त लगी।”</p>
+
+<p>क्योंकि इस Fellowship के साथ कोई तय मार्गदर्शिका नहीं आती, Agrawal अपने अनुभव को समृद्ध और विनम्र बनाने वाला बताती हैं—एक असली “डूबो या तैरो” स्थिति।</p>
+
+<p><img style="float: right;" src="/personalWebpage/data/figures/Anamika-Agrawal-Shanahan-1.jpg" /></p>
+
+<p>“या तो आप समझ जाते हो कि आपको स्वतंत्र रूप से शोध करना पसंद है और आप principal investigator का जीवन चाहते हो,” उन्होंने कहा। “या फिर आप जल्दी ही सीख लेते हो कि यह जीवनशैली आपके लिए नहीं है।”</p>
+
+<p>Anamika के लिए चुनौतियाँ तुरंत सामने आ गईं—और कई आयामों में। “मुझे लगा था कि मेरी सबसे कठिन चुनौती होगी एक नए क्षेत्र की भाषा और प्रथाओं को फिर से सीखना,” वह कहती हैं। “लेकिन यह कुछ भी नहीं था, अपने स्वयं के शोध कार्यक्रम को विकसित करने और प्रबंधित करने की उन्नति और अवनति के मुकाबले।”</p>
+
+<p>Fellowship के दौरान उन्होंने इस कार्यक्रम की choose-your-own-adventure संरचना को अपनाया। Allen Institute और University of Washington में अपने mentors और साथियों के समर्थन से, उन्होंने कई शोध दिशाओं का पता लगाना शुरू किया, और उस स्वतंत्रता—और ज़िम्मेदारी—का सामना किया जो अपने रास्ते खुद तय करने के साथ आती है।</p>
+
+<p>“पहले साल में, ऐसा लगा जैसे पूरी दुनिया मेरे लिए खुल गई हो,” वह कहती हैं। “इतने सारे विचार, और सीखने के लिए इतनी सारी चीज़ें। मुझे पहले से ही पता था कि मुझे स्वतंत्र एजेंट की तरह शोध करना पसंद है, जहाँ मैं एक बड़ी टीम को इकट्ठा कर सकूँ, और अपने interdisciplinary (अंतःविषय) research program की दिशा में सहयोग कर सकूँ।”</p>
+
+<p>उनका शोध कार्यक्रम अंततः neuroscience में एक महत्वपूर्ण प्रश्न पर केंद्रित हुआ: हम मस्तिष्क के कार्य—और dysfunction (रोग)—को कई स्तरों पर कैसे समझ सकते हैं, एकल neurons से लेकर बड़े neural systems तक? और हम कैसे ऐसे मॉडल बना सकते हैं जो इन सभी स्तरों को समझने योग्य और मापनीय तरीके से जोड़ सकें?</p>
+
+<p>उनके शोध का पहला प्रमुख भाग individual (अकेले एक) neurons की computational शक्ति में डूबा। Michael Buice, Ph.D., associate investigator के साथ काम करते हुए, Agrawal ने यह खोजा कि dendrites की संरचना—neurons की पेड़ जैसी शाखाएँ—कैसे एक neuron की जटिल गणनाएँ करने की क्षमता को प्रभावित करती हैं। पारंपरिक रूप से, neurons को simple threshold units की तरह मॉडल किया गया है, जो input के आधार पर ऑन या ऑफ हो जाते हैं, लेकिन Agrawal का काम इस दृष्टिकोण को चुनौती देता है।</p>
+
+<p>उन्होंने एक neural network model विकसित किया जो deep learning और computational complexity theory को dendritic geometry और nonlinear processing के साथ जोड़ता है। उनके निष्कर्ष बताते हैं कि neurons केवल signal relays नहीं बल्कि शक्तिशाली processors की तरह काम करते हैं। विभिन्न dendritic संरचनाएँ अलग-अलग प्रकार की गणनाओं को सक्षम बनाती हैं।</p>
+
+<p>“एक अकेला neuron एक छोटा neural network की तरह काम कर सकता है जो अपने आप high-dimensional (अत्यधिक जटिल और बहुआयामी) समस्याओं को हल कर सकता है,” उन्होंने समझाया। “इन निष्कर्षों से पता चलता है कि मस्तिष्क में neurons के प्रकारों की अद्भुत विविधता केवल biological शोर नहीं है—बल्कि यह एक शक्तिशाली डिज़ाइन है।”</p>
+
+<p>Agrawal ने इस सिद्धांत को वास्तविक-world data के साथ प्रस्तावित करने और परखने का लक्ष्य रखा। उन्होंने Kaspar Podgorski के समूह के साथ calcium और glutamate imaging datasets का विश्लेषण किया, जो dendritic गतिविधि की जानकारी प्रदान करते हैं। साथ ही, उन्होंने Electron Microscopy connectomics टीम के साथ भी काम किया, जिसमें शामिल थे Forrest Collman, Ph.D., और Casey Schneider-Mizell, Ph.D., cortical cell प्रकारों के बीच अंतर को समझने के लिए।</p>
+
+<p><img style="float: right;" src="/personalWebpage/data/figures/UMAP-header.jpeg" /> <em>UMAP figure depicting data from the Seattle Alzheimer’s Disease Brain Cell Atlas (SEA-AD) consortium.</em></p>
+
+<p>उनका दूसरा शोध कार्य एक अन्य चुनौती को संबोधित करता है: neurodegenerative disease के progression (प्रसार) को समझना। SEA-AD consortium के साथ उनके काम के माध्यम से, Agrawal को Alzheimer’s Disease के pathology का एक विशाल dataset मिला जो कई brain क्षेत्रों और donors से प्राप्त किया गया था। चुनौती यह थी कि यह data longitudinal नहीं था—हर donor से केवल एक snapshot था। उन्होंने Mariano Gabitto, Ph.D. और Gonzalo Mena, Ph.D. के साथ मिलकर एक model विकसित किया जो Alzheimer’s Disease के प्रसार को biophysical dynamics के उपयोग से एक timeline में रूपांतरित करता है, जिससे बीमारी के स्थानिक और कालिक फैलाव की बेहतर समझ मिलती है।</p>
+
+<p>“हमने इस model को Middle Temporal Gyrus क्षेत्र में परखा, और परिणाम उत्साहजनक थे, जो AD के विभिन्न markers को एक प्रगति समयरेखा में मिलाते हैं,” उन्होंने कहा। बाद में उन्होंने Shanahan की एक प्रतिभाशाली शोधकर्ता Janna Hong को मार्गदर्शन दिया, जिन्होंने Hippocampus में disease progression के प्रारंभिक परीक्षण किए।</p>
+
+<p>शोध से परे, इस Fellowship ने उन्हें workplace के लिए भी तैयार किया—अलग-अलग क्षेत्रों के विशेषज्ञों के साथ अपने काम को प्रस्तुत करने और संप्रेषित करने की क्षमता विकसित की, जबकि एक साथ कई परियोजनाओं को संतुलित किया। लेकिन वह कहती हैं कि Allen Institute की टीम भावना के बिना यह संभव नहीं था।</p>
+
+<p>“Institute ने उन वैज्ञानिकों के लिए मेरे भीतर गहरा सम्मान उत्पन्न किया है जो इतने बड़े पैमाने पर collaborative काम करते हैं। हर कोई चर्चा के लिए खुला है और मदद करने को तैयार रहता है। यहाँ तक कि जब मैं किसी परियोजना में सीधे शामिल नहीं थी, तब भी लोग बातचीत या सहायता के लिए उपलब्ध रहते थे,” वह कहती हैं।</p>
+
+<p>Institute के बाहर, Seattle में बिताया गया उनका समय व्यक्तिगत रूप से भी उन्हें आकार देने वाला रहा। “भारत में पली-बढ़ी, और अपने Ph.D. के दौरान San Diego में रहने के बाद, Seattle के gray मौसम की आदत डालने में मुझे थोड़ा समय लगा,” उन्होंने कहा।</p>
+
+<p>Agrawal कहती हैं कि वह Seattle से प्यार करने लगी हैं—खासकर वहाँ की प्राकृतिक सुंदरता और शहर की पैदल चलने योग्य संरचना से—और अब यह शहर उनके दिल में एक विशेष स्थान रखता है। “मैंने यहाँ दो प्यारे बिल्लियाँ अपनाईं, Discovery Park में शादी की, और मेरी साथी और Shanahan Fellow, Lu Mi ने हमारी शादी की तस्वीरें खींचीं!”</p>
+
+<p>पीछे मुड़कर देखने पर, Agrawal इस Fellowship को एक तेज़ गति वाले simulation की तरह देखती हैं जो एक शोध समूह का नेतृत्व करने के अनुभव को दर्शाता है।</p>
+
+<p>“मैंने अपने Ph.D. advisor के लिए गहरी सराहना विकसित की, जिन्होंने मुझे research management की कई कठिनाइयों से बचाया,” उन्होंने कहा, “मेरे Fellowship mentors आज भी मुझ पर भरोसा करते हैं और मेरे निर्णयों की स्वतंत्रता में हस्तक्षेप किए बिना हर कदम पर मेरी मदद करते हैं।”</p>
+
+<p>Shanahan Fellowship पर विचार कर रहे लोगों के लिए Agrawal की सलाह स्पष्ट है: “गहराई से सोचिए कि आप उन तीन वर्षों में क्या हासिल करना चाहते हैं। चुनौती होती है अपने समय को प्रबंधित करना और ऐसे mentors खोजना जो आपके लक्ष्यों के साथ मेल खाते हों।”</p>
+
+<p>जहाँ तक भविष्य की बात है, Agrawal अब नए अवसरों की तलाश में हैं, इस आशा के साथ कि वह विज्ञान और शोध की दुनिया में और गहराई से उतरें।</p>
+
+<p>“Neuroscience एक ऐसा रोचक क्षेत्र है जिसमें कई अनसुलझे प्रश्न हैं जो नए दृष्टिकोण की माँग करते हैं,” वह कहती हैं। “Shanahan Fellowship कार्यक्रम नए दृष्टिकोणों और साहसपूर्वक खोज करने के इच्छुक लोगों को लाता है।”</p>
+
+<p>अगर Shanahan Fellowship अगली पीढ़ी के अंतःविषय वैज्ञानिकों के लिए एक proving ground है, तो Anamika Agrawal ने केवल तैरने से कहीं अधिक किया है—उन्होंने भविष्य की ओर एक साहसिक और विचारशील रास्ता तय किया है।</p>]]></content><author><name>Liz Dueweke (translated to hindi by Anchal Gupta)</name></author><category term="opinion" /><summary type="html"><![CDATA[Shanahan Fellowship के ज़रिए मस्तिष्क के कार्य और neurodegenerative बीमारियों को समझने की दिशा में सफ़र।]]></summary></entry><entry><title type="html">Transportation Utopia</title><link href="https://anchal-physics.github.io/personalWebpage/opinion/2025/05/17/Transportation_Utopia.html" rel="alternate" type="text/html" title="Transportation Utopia" /><published>2025-05-17T07:00:00+00:00</published><updated>2025-05-17T07:00:00+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/opinion/2025/05/17/Transportation_Utopia</id><content type="html" xml:base="https://anchal-physics.github.io/personalWebpage/opinion/2025/05/17/Transportation_Utopia.html"><![CDATA[<h1 id="a-vision-for-seamless-urban-and-regional-transportation">A Vision for Seamless Urban and Regional Transportation</h1>
+
+<p>In a geographically expansive and densely populated region such as California, where road infrastructure is extensive yet traffic congestion persists, a radical rethinking of urban and intercity mobility is essential. The proposed transportation utopia addresses this challenge by replacing most private car usage with a comprehensive, AI-managed public transport network powered by clean hydrogen fuel cell technology. The system operates on multiple tiers, each tailored to a specific travel range and user need, and is designed for maximum efficiency, affordability, and user safety. Below is a detailed breakdown of this system:</p>
+
+<hr />
+
+<h2 id="the-final-state">The final state</h2>
+
+<p>The following describes the fully equilibrated state of transportation in the region. The goal is to create a sense that wherever you live within this system, you are fully connected, equally served, and supported 24/7 with safe, affordable and zero-emissions mobility. Economic incentives are embedded to naturally guide people toward choosing this system over private car ownership. Ultimately, it offers a lifestyle where travel is not only more cost-effective but also faster and more time-efficient than driving yourself.</p>
+
+<h3 id="foundational-policy">Foundational Policy</h3>
+
+<ul>
+  <li>
+    <p><strong>High Car Ownership Costs</strong>: Car registration and parking fees are deliberately made prohibitively expensive to discourage private vehicle ownership.</p>
+  </li>
+  <li>
+    <p><strong>Universal Access via App</strong>: Every resident receives free access to a centralized transportation app, allowing on-demand travel planning, booking, and support.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="1-intra-city-shuttles-05">1. Intra-City Shuttles: $0–$5</h3>
+
+<ul>
+  <li><strong>Fleet</strong>: Self-driving, hydrogen-powered electric mini-vans (10–20 seat capacity).</li>
+  <li><strong>Cost Structure</strong>:
+    <ul>
+      <li>Free for first 10 miles.</li>
+      <li>$0.10 per mile thereafter, capped at $5.</li>
+    </ul>
+  </li>
+  <li><strong>Operation Constraints</strong>:
+    <ul>
+      <li>Operate strictly within city limits.</li>
+      <li>Optimize collective travel time, even if it means detours for pickups/drop-offs.</li>
+    </ul>
+  </li>
+  <li><strong>Performance Standards</strong>:
+    <ul>
+      <li>Journey duration never exceeds 150% of direct trip time.</li>
+      <li>Sufficient deployment to meet demand dynamically throughout the day.</li>
+    </ul>
+  </li>
+  <li><strong>Safety and Oversight</strong>:
+    <ul>
+      <li>AI-driven atmosphere monitoring using video analytics.</li>
+      <li>1 human on-call support per 25 shuttles.</li>
+      <li>Emergency page buttons onboard and via app.</li>
+    </ul>
+  </li>
+  <li><strong>Deployment Strategy</strong>:
+    <ul>
+      <li>Centralized parking/charging hubs.</li>
+      <li>Real-time relocation based on demand (e.g., homes in the morning, workplaces later).</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="2-county-wide-taxis-030">2. County-Wide Taxis: $0–$30</h2>
+
+<ul>
+  <li><strong>Fleet</strong>: Self-driving, hydrogen-powered cars with up to 6 seats.</li>
+  <li><strong>Cost Structure</strong>:
+    <ul>
+      <li>Flat $0.30/mile up to 100 miles.</li>
+      <li>Maximum fare capped at $30.</li>
+    </ul>
+  </li>
+  <li><strong>Operation Constraints</strong>:
+    <ul>
+      <li>May travel between cities but restricted to within the same county.</li>
+      <li>Prioritize minimal time for the current customer (no detours).</li>
+    </ul>
+  </li>
+  <li><strong>Performance Standards</strong>:
+    <ul>
+      <li>Max 10-minute wait time under any demand scenario.</li>
+    </ul>
+  </li>
+  <li><strong>Privacy and Support</strong>:
+    <ul>
+      <li>Full in-vehicle privacy, no monitoring.</li>
+      <li>1 on-call human per 50 taxis, reachable via app or in-car alert.</li>
+    </ul>
+  </li>
+  <li><strong>Deployment Strategy</strong>:
+    <ul>
+      <li>Centrally parked/charged.</li>
+      <li>Taxi distribution based solely on specific taxi demand patterns.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="3-regional-intercity-buses-flat-5">3. Regional Intercity Buses: Flat $5</h2>
+
+<ul>
+  <li><strong>Fleet</strong>: 50-seat self-driving hydrogen electric buses.</li>
+  <li><strong>Cost Structure</strong>:
+    <ul>
+      <li>Flat $5 for trips between city centers of neighboring cities.</li>
+    </ul>
+  </li>
+  <li><strong>Operation Constraints</strong>:
+    <ul>
+      <li>Fixed city-center endpoints.</li>
+      <li>Pick up others only if no detour increases the original passenger’s trip time by more than 100%.</li>
+    </ul>
+  </li>
+  <li><strong>Performance Standards</strong>:
+    <ul>
+      <li>Deployed immediately on request even for a single passenger</li>
+    </ul>
+  </li>
+  <li><strong>Safety and Oversight</strong>:
+    <ul>
+      <li>Same monitoring and emergency paging system as shuttles.</li>
+      <li>1 on-call responder per 25 buses.</li>
+    </ul>
+  </li>
+  <li><strong>Deployment Strategy</strong>:
+    <ul>
+      <li>Demand-based distribution across cities.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="4-high-speed-intercity-trains-10100">4. High-Speed Intercity Trains: $10–$100</h2>
+
+<ul>
+  <li><strong>Fleet</strong>: Fully self-driving electric trains capable of 500 km/hr.</li>
+  <li><strong>Cost Structure</strong>:
+    <ul>
+      <li>Base fare: $10.</li>
+      <li>Additional $5 per intermediate stop (only if used).</li>
+      <li>Max fare: $100.</li>
+    </ul>
+  </li>
+  <li><strong>Network Design</strong>:
+    <ul>
+      <li>All city centers interconnected.</li>
+      <li>Central and high-traffic cities may serve as additional origins.</li>
+    </ul>
+  </li>
+  <li><strong>Scheduling</strong>:
+    <ul>
+      <li>Every 30 minutes on average.</li>
+      <li>Every 15 minutes during peak; 45 minutes during low demand.</li>
+    </ul>
+  </li>
+  <li><strong>Operational Efficiency</strong>:
+    <ul>
+      <li>Skip stops without boarding/alighting passengers.</li>
+      <li>Merge trains with &lt;5-minute spacing.</li>
+      <li>Seat reallocation (≤25% of passengers) possible to split trains if it reduces total travel time by &gt;50%.</li>
+    </ul>
+  </li>
+  <li><strong>Safety and Oversight</strong>:
+    <ul>
+      <li>AI-monitored coaches for safety.</li>
+      <li>Central remote driver also handles emergency support.</li>
+    </ul>
+  </li>
+  <li><strong>Capacity Management</strong>:
+    <ul>
+      <li>Adequate rolling stock to maintain frequency, with flexible routing.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="system-highlights">System Highlights</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Shuttles</th>
+      <th>Taxis</th>
+      <th>Buses</th>
+      <th>High-Speed Trains</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Max Distance</td>
+      <td>Within city</td>
+      <td>100 miles (within county)</td>
+      <td>Neighboring city centers</td>
+      <td>Entire regional network</td>
+    </tr>
+    <tr>
+      <td>Max Cost</td>
+      <td>$5</td>
+      <td>$30</td>
+      <td>$5</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>Privacy</td>
+      <td>Shared with AI monitoring</td>
+      <td>Full privacy</td>
+      <td>Shared with AI monitoring</td>
+      <td>Semi-private with AI</td>
+    </tr>
+    <tr>
+      <td>Wait Time</td>
+      <td>&lt;50% of solo trip time</td>
+      <td>&lt;10 minutes</td>
+      <td>Immediate if needed</td>
+      <td>Scheduled (15–45 min)</td>
+    </tr>
+    <tr>
+      <td>Human Support</td>
+      <td>1 per 25 units</td>
+      <td>1 per 50 units</td>
+      <td>1 per 25 units</td>
+      <td>1 per train</td>
+    </tr>
+    <tr>
+      <td>Environmental Impact</td>
+      <td>Hydrogen fuel cell</td>
+      <td>Hydrogen fuel cell</td>
+      <td>Hydrogen fuel cell</td>
+      <td>Electric</td>
+    </tr>
+    <tr>
+      <td>Deployment Strategy</td>
+      <td>Demand-based</td>
+      <td>Demand-based</td>
+      <td>Demand-based</td>
+      <td>Schedule and traffic-driven</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="the-transition">The Transition</h2>
+
+<p>Describing a utopia and planning a path to reach it are fundamentally different challenges—one is philosophical, the other practical. Still, the final state described above offers value not just as a dream, but as a target to guide realistic planning. With that in mind, this plan outlines a phased, realistic transition toward that goal, guided by four foundational pillars: <strong>Political Engagement</strong>, <strong>Economic Groundwork</strong>, <strong>Technological Trust</strong>, and <strong>Sustainable Infrastructure</strong>.</p>
+
+<hr />
+
+<h3 id="phase-1-5-years-build-awareness-and-foundation"><strong>Phase 1: (~5 years) Build Awareness and Foundation</strong></h3>
+
+<h4 id="1-political-engagement">1. Political Engagement</h4>
+<p>Develop community support and build political will to invest in prototypes and pilot programs. This includes shifting local decision-making processes and securing executive authority at the city level. The central political promise: equitable access to safe, universally available transportation.</p>
+
+<h4 id="2-economic-groundwork">2. Economic Groundwork</h4>
+<p>Define the financial structure of the final state and address the future of jobs in the existing transportation sector. Identify lateral job transitions for those impacted, and integrate public input into the evolving vision to ensure societal buy-in. Equity remains key: the transition must deliver accessible benefits to everyone.</p>
+
+<h4 id="3-technological-trust">3. Technological Trust</h4>
+<p>Demonstrate safe, fully autonomous mobility and robust, AI-powered environmental monitoring. Early public exposure to these technologies is crucial for normalization and long-term acceptance. This builds trust in the AI systems that will underpin the final solution.</p>
+
+<h4 id="4-sustainable-infrastructure">4. Sustainable Infrastructure</h4>
+<p>Independent of industry actors, scientists must prototype scalable, zero-emission energy systems. This includes non-lithium-based energy storage (e.g., hydrogen fuel cells or equivalents) that do not rely on rare-earth mining. Energy generation must be fully clean—relying on solar, wind, nuclear fission, geothermal, and eventually fusion—without offsets or carbon capture strategies.</p>
+
+<hr />
+
+<h3 id="phase-2-5-years-prototype-and-prepare"><strong>Phase 2: (~5 years) Prototype and Prepare</strong></h3>
+
+<h4 id="1-political-engagement-1">1. Political Engagement</h4>
+<p>Pass legislation to fund research, planning, and prototyping. Finance the effort through taxation on luxury goods and non-essential consumption.</p>
+
+<h4 id="2-economic-groundwork-1">2. Economic Groundwork</h4>
+<p>Introduce pricing models that make prototypes cheaper than conventional options. Begin raising one-time personal car registration fees while keeping parking costs stable. Impose higher taxes on new personal car purchases. Provide financial support to individuals disproportionately affected by the transition through targeted credits.</p>
+
+<h4 id="3-technological-trust-1">3. Technological Trust</h4>
+<p>Deploy AI systems under continuous human oversight to validate safety, identify edge cases, and refine training datasets. During the prototype phase, each AI agent will be paired one-on-one with a human supervisor. These supervisors—ideally laterally shifted workers from current transportation roles (e.g., taxi and rideshare drivers)—will monitor and provide real-time feedback to the AI. This approach generates a rich set of corrective training data and helps build confidence in AI-driven mobility systems.</p>
+
+<h4 id="4-sustainable-infrastructure-1">4. Sustainable Infrastructure</h4>
+<p>Prototype and demonstrate scalable energy and transportation technologies. Develop a clear roadmap for sustainable vehicle manufacturing and energy production. A balanced mix of solar, wind, geothermal, and nuclear fission must be implemented, while avoiding reliance on energy storage strategies for intermittent sources. Fusion is a long-term hope, but plans must progress without waiting for it.</p>
+
+<hr />
+
+<h3 id="phase-3-10-years-roll-out-and-expand"><strong>Phase 3: (~10 years) Roll Out and Expand</strong></h3>
+
+<h4 id="1-political-engagement-2">1. Political Engagement</h4>
+<p>Ensure consistent public support through outreach, transparent reporting, and responsiveness to feedback. Combat misinformation through town halls, surveys, and public demonstrations of pilot successes.</p>
+
+<h4 id="2-economic-groundwork-2">2. Economic Groundwork</h4>
+<p>Continue expanding market share through affordable pricing. Gradually increase parking rates. Cap new personal car registrations to reduce private vehicle supply and raise their cost, thereby nudging consumers toward the public system.</p>
+
+<h4 id="3-technological-trust-2">3. Technological Trust</h4>
+<p>Fully deploy autonomous minivan fleets and partially deploy taxi services. Begin rolling out buses and constructing high-speed rail corridors. By the end of this phase, connect the four most trafficked cities with at least two high-speed routes.</p>
+
+<h4 id="4-sustainable-infrastructure-2">4. Sustainable Infrastructure</h4>
+<p>Achieve 50% zero-emission energy generation across the region. Finalize the roadmap to reach 100% in the next phase.</p>
+
+<hr />
+
+<h3 id="phase-4-10-years-realize-the-vision"><strong>Phase 4: (~10 years) Realize the Vision</strong></h3>
+
+<h4 id="1-political-engagement-3">1. Political Engagement</h4>
+<p>Stay the course. Maintain public excitement through widespread cultural reinforcement—celebrate the transformation with music, social events, viral campaigns, and media that contrast the inefficiencies of the past with the success of the new system.</p>
+
+<h4 id="2-economic-groundwork-3">2. Economic Groundwork</h4>
+<p>Smoothly transition into the final state while supporting vulnerable populations. Ensure the system remains affordable, equitable, and broadly accessible.</p>
+
+<h4 id="3-technological-trust-3">3. Technological Trust</h4>
+<p>Expand training programs in AI system development, deployment, and maintenance. Foster innovation and resilience by growing a skilled workforce for ongoing support and future upgrades.</p>
+
+<h4 id="4-sustainable-infrastructure-3">4. Sustainable Infrastructure</h4>
+<p>Reach 100% zero-emission energy generation and transportation coverage across the region. With the system in place, set new goals for future progress.</p>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This transportation system envisions a future where affordable, fast, clean, and intelligent mobility replaces the burdens of private car ownership and traffic congestion. AI coordination, flexible deployment, and a layered approach to trip distance create a network that serves everyone—from daily commuters to intercity travelers—with safety, efficiency, and sustainability at its core.</p>]]></content><author><name>Anchal Gupta</name></author><category term="opinion" /><summary type="html"><![CDATA[A Vision for Seamless Urban and Regional Transportation]]></summary></entry><entry><title type="html">Shortlisted donation options on occasion of Anchal &amp;amp; Anamika’s wedding</title><link href="https://anchal-physics.github.io/personalWebpage/events/2024/02/07/wedding.html" rel="alternate" type="text/html" title="Shortlisted donation options on occasion of Anchal &amp;amp; Anamika’s wedding" /><published>2024-02-07T01:00:00+00:00</published><updated>2024-02-07T01:00:00+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/events/2024/02/07/wedding</id><content type="html" xml:base="https://anchal-physics.github.io/personalWebpage/events/2024/02/07/wedding.html"><![CDATA[<p style="text-align: right; font-size: 160%;">
+<a href="https://anchal-physics.github.io/personalWebpage/data/extra_pages/2024-02-06-wedding-hindi.html">हिन्दी अनुवाद देखें</a></p>
+
+<p>Hello,</p>
+
+<p>Thank you for joining our wedding celebration. We are more than honored by your
+presence, please do not bring any gifts for us. Instead, here are a few options for
+you to pick a cause and donate to a charity working on that cause.</p>
+
+<p>Thank you.</p>
+
+<h3 id="india-wide-mid-day-meal-for-underpriviledged-kids">India wide mid-day meal for underpriviledged kids</h3>
+
+<p><a href="https://www.akshayapatra.org/donate-to-midday-meal-programme">Akhsay Patra</a></p>
+
+<h3 id="india-wide-education-support-for-girls">India wide education support for girls</h3>
+
+<p><a href="https://www.educategirls.ngo/donate/">Educate Girls</a></p>
+
+<p><a href="https://www.careindia.org/campaign-template/help-sending-girls-back-to-school/">Care India</a></p>
+
+<h3 id="care-for-orphans-in-india">Care for orphans in India</h3>
+
+<p><a href="https://www.narayanseva.org/causes/enrich/enrich-orphanage/">Narayan Seva</a></p>
+
+<p><a href="https://serudsindia.org/donate-to-orphans-in-india/">SERUDS India</a></p>
+
+<h3 id="animal-shelter-and-welfare-in-india">Animal shelter and welfare in India</h3>
+
+<p><a href="https://barkindia.org/donate/">Bark India, Pondicherry</a></p>
+
+<p><a href="https://www.thefelinefoundation.com/donate/">The Feline Foundation, Mumbai</a></p>
+
+<p><a href="https://www.amtmindia.org/donate/">Animals matter to me, Mumbai</a></p>]]></content><author><name>Anchal Gupta</name></author><category term="events" /><summary type="html"><![CDATA[हिन्दी अनुवाद देखें]]></summary></entry><entry><title type="html">Vegan Kaju Ghee Pulav</title><link href="https://anchal-physics.github.io/personalWebpage/opinion/2022/10/17/vegan_kaju_ghee_pulav.html" rel="alternate" type="text/html" title="Vegan Kaju Ghee Pulav" /><published>2022-10-17T02:17:00+00:00</published><updated>2022-10-17T02:17:00+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/opinion/2022/10/17/vegan_kaju_ghee_pulav</id><content type="html" xml:base="https://anchal-physics.github.io/personalWebpage/opinion/2022/10/17/vegan_kaju_ghee_pulav.html"><![CDATA[<p>Yesterday, I made vegan Kaju ghee pulav for this year’s celebration of Diwali and it was an absolute hit! For those who had eaten my usual Kaju ghee pulav that contains dairy, they could not tell the difference between this one and the previous one. Growing up in India, I know how ghee smells and this <a href="https://www.amazon.com/dp/B09MST2RS7?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details">Livlo Vegan Ghee</a> smells exactly the same. The taste is a bit different but that does not necessarily mean it tastes less good.</p>
+
+<p>So I’m gonna describe a simple short recipe for this dish. I believe most Indian dishes can be made in a spectrum of ways which are all good, and this is one of them that I like. Pulav being pulav, there are no strict rules and you should improvise the recipe as per the availability of ingredients, time, and your taste.</p>
+
+<h2 id="ingredients">Ingredients</h2>
+
+<p>All ingredients are for 2 cups of uncooked rice.</p>
+
+<h3 id="minimum-required">Minimum Required</h3>
+
+<ul>
+  <li>2 cups Basmati rice. (I used <a href="https://www.amazon.com/dp/B072L475FM?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details">this one</a>.)</li>
+  <li>1 cup Cashews (I used <a href="https://www.amazon.com/dp/B08LSJZ56C?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details">this one</a>.)</li>
+  <li>4 Tbsp Vegan Ghee (I used <a href="https://www.amazon.com/dp/B09MST2RS7?psc=1&amp;ref=ppx_yo2ov_dt_b_product_details">this one</a>.)</li>
+  <li>1/2 cup Onion</li>
+</ul>
+
+<h3 id="recommended">Recommended</h3>
+
+<ul>
+  <li>3 Tbsp Cumin seeds</li>
+  <li>2 Bay leaves</li>
+  <li>4 Black cardamom</li>
+  <li>2 Green cardamom whole</li>
+  <li>2 green cardamoms (seeds only)</li>
+  <li>1 Star Anise</li>
+  <li>2 cm Cinnamon stick</li>
+  <li>5 Cloves</li>
+</ul>
+
+<h3 id="optional">Optional</h3>
+
+<ul>
+  <li>Golden raisins</li>
+  <li>Saffron</li>
+</ul>
+
+<p>Note: The amount of spices won’t increase linearly with the amount of rice. Some of these spices like Cinnamon or star anise are dominant fragrances, and you would want to increase them slower than other spices.</p>
+
+<h3 id="equipment">Equipment</h3>
+
+<ul>
+  <li>Pot with stove</li>
+  <li>Rice cooker with access to a stove</li>
+  <li>Instant pot</li>
+</ul>
+
+<p>You can use a pot, or rice cooker pot on a stove (yes it is fine to do it), or your instant pot. I’ll use the word pot to mean whatever you are using.</p>
+
+<h2 id="steps">Steps</h2>
+
+<ul>
+  <li>Soak basmati rice for 30 minutes in double the amount of water as rice.</li>
+  <li>Meanwhile, chop the onion into semicircular arcs, roughly 5 mm wide.</li>
+  <li>When rice is about to be done soaking, heat some vegan ghee in a pot. Increase the amount of ghee depending on what kind of richness you want.</li>
+  <li>Gauge the temperature of the pot by putting a single cumin seed. You want the seed to start sputtering immediately. If that doesn’t happen, wait more.</li>
+  <li>Then put cumin seeds and wait about 10 seconds.</li>
+  <li>Then add all the remaining whole spices and lower the heat. Your aim here is to let spices sit in the hot ghee to effuse out all their flavor and fragrance into it. You are not frying the spices.</li>
+  <li>After about a couple of minutes, you can add onion and increase the heat a little bit.</li>
+  <li>When onions are halfway to caramelizing, add cashews and stir nicely to coat all cashews with ghee.</li>
+  <li>Roast for a couple of minutes.</li>
+  <li>Then add the soaked rice (most of the excess water drained out) to the pot. Stir nicely to event distribute the ghee, onion, and spices around the rice. At this point, if you feel like adding more ghee because you went too conservative earlier, go for it!</li>
+  <li>You can also add some raisins at this point.</li>
+</ul>
+
+<h3 id="if-you-are-using-a-pot">If you are using a pot:</h3>
+
+<ul>
+  <li>Then increase heat and add water to about 1 cm above the rice level in the pot. Note that this is less than the usual finger method deliberately.</li>
+  <li>Add salt to taste. Ideally, the water should taste slightly salty for a good taste in the end.</li>
+  <li>Add some saffron if you have it and want to add some saffron color to the rice.</li>
+  <li>Close the lid. I’m assuming your lid has a vent hole and is transparent.</li>
+  <li>Monitor the temperature of the side wall of the pot using an infrared thermometer. You want to reduce heat to very low when the temperature goes above 102 degrees Celsius.</li>
+  <li>Alternatively, monitor when the water is boiling and reduce the heat about a minute after you see the last signs of boiling at the top.</li>
+  <li>Wait for about 10 minutes after this point. Check the rice, if it is not cooked, add a little bit more water and heat again for some time.</li>
+</ul>
+
+<h3 id="if-using-a-rice-cooker-or-instant-pot">If using a rice cooker or instant pot</h3>
+
+<ul>
+  <li>Add water to about 1 cm above the rice level in the pot. Note that this is less than the usual finger method deliberately.</li>
+  <li>Add salt to taste. Ideally, the water should taste slightly salty for a good taste in the end.</li>
+  <li>Add some saffron if you have it and want to add some saffron color to the rice.</li>
+  <li>Close the lid.</li>
+  <li>Transfer your rice cooker pot to the rice cooker and turn on cook mode. For the instant pot, set it to the rice cooker setting and turn it on.</li>
+</ul>
+
+<h2 id="serving">Serving</h2>
+
+<p>Serve as it is or with a garnish of fresh chopped cilantro. Can be enjoyed as it is or with Indian sabzis.</p>]]></content><author><name>Anchal Gupta</name></author><category term="opinion" /><summary type="html"><![CDATA[Yesterday, I made vegan Kaju ghee pulav for this year’s celebration of Diwali and it was an absolute hit! For those who had eaten my usual Kaju ghee pulav that contains dairy, they could not tell the difference between this one and the previous one. Growing up in India, I know how ghee smells and this Livlo Vegan Ghee smells exactly the same. The taste is a bit different but that does not necessarily mean it tastes less good.]]></summary></entry><entry><title type="html">Loving GitHub Actions!</title><link href="https://anchal-physics.github.io/personalWebpage/opinion/2022/09/05/loving_github_actions.html" rel="alternate" type="text/html" title="Loving GitHub Actions!" /><published>2022-09-05T19:16:50+00:00</published><updated>2022-09-05T19:16:50+00:00</updated><id>https://anchal-physics.github.io/personalWebpage/opinion/2022/09/05/loving_github_actions</id><content type="html" xml:base="https://anchal-physics.github.io/personalWebpage/opinion/2022/09/05/loving_github_actions.html"><![CDATA[<p>This is gonna be a short review from a fairly new user of CI/CD with limited
+experience. I used to use Travis CI for some personal repo python code running
+as well as some work-related latex compilation and deployment of generated pdf.
+In both cases, setting up Travis to work was not always easy or straight
+forward (at least to noobs like me). One of the reasons I felt it consumed time
+was because I had to search for codes in other repos or StackExchange, and
+often the code needed to be copied manually and adopted. And then, Travis
+stopped me from using CI for free for public repos. It turned out the free
+usage was for limited minutes.</p>
+
+<p>I wanted to have a better solution. Most of my work-related repos are hosted on
+a GitLab enterprise, and our collaboration runs GitLab runner
+servers for all to use. So using the in-built GitLab ci runner has been always
+convenient with easy access to docker containers. But I couldn’t use the same
+benefits for my personal projects because I couldn’t access such servers. So
+one better solution to my problem was to use an old laptop at home, make it
+Debian, and set it up as a server that my repos can use for GitLab runners.
+The hard disk of this computer was dying though and replacing that became a task I
+could procrastinate for some time.</p>
+
+<p>And then, I came across an article about GitHub Actions. I can’t remember from
+where. I got immediately sucked into it. It provides free runners for
+public repos, and setting up GitHub actions is even easier than GitLab ci. The
+configuration structure based on yaml is concise, helpful, and simply
+beautiful. Beautiful also because the format is very similar to how I have been
+imagining my ideal laser interferometer operation script in yaml.</p>
+
+<p>The fact, that you can call in favors from the online community, by using their
+defined actions in our configuration line with a simple step statement is
+amazing. This ruled out all issues mentioned above while setting up
+Travis. The GitHub Actions marketplace is amazing and fills me with joy and hope
+about future collaboration in open public development. I just made this webpage
+and for deploying it to gh-pages, I simply use:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">jobs</span><span class="pi">:</span>
+  <span class="na">BuildAndDeploy</span><span class="pi">:</span>
+    <span class="s">.</span>
+    <span class="s">.</span>
+    <span class="s">steps</span><span class="err">:</span>
+      <span class="s">.</span>
+      <span class="s">.</span>
+      <span class="s">- name</span><span class="err">:</span> <span class="s">Deploy webpage</span>
+        <span class="s">uses</span><span class="err">:</span> <span class="s">peaceiris/actions-gh-pages@v3</span>
+        <span class="s">with</span><span class="err">:</span>
+          <span class="na">github_token</span><span class="pi">:</span> <span class="s">$</span>
+          <span class="na">publish_dir</span><span class="pi">:</span> <span class="s">./_site/</span></code></pre></figure>
+
+<p>Thanks to <a href="https://github.com/peaceiris/actions-gh-pages">peaceiris/actions-gh-pages@v3</a>.</p>
+
+<p>So I’m very happy about GitHub Actions. I wish I had come to know about it
+earlier. That was my first post, thanks for reading.</p>]]></content><author><name>Anchal Gupta</name></author><category term="opinion" /><summary type="html"><![CDATA[This is gonna be a short review from a fairly new user of CI/CD with limited experience. I used to use Travis CI for some personal repo python code running as well as some work-related latex compilation and deployment of generated pdf. In both cases, setting up Travis to work was not always easy or straight forward (at least to noobs like me). One of the reasons I felt it consumed time was because I had to search for codes in other repos or StackExchange, and often the code needed to be copied manually and adopted. And then, Travis stopped me from using CI for free for public repos. It turned out the free usage was for limited minutes.]]></summary></entry></feed>
