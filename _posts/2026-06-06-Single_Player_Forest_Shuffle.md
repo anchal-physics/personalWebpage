@@ -4,6 +4,7 @@ title:  "Single Player Forest Shuffle"
 date:   2026-06-06 00:00:00 -0700
 author: Anchal Gupta
 categories: opinion
+---
 
 # Forest Shuffle: Single-player modifications
 
